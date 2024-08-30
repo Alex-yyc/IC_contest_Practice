@@ -1,0 +1,86 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Jul 25, 2023 at 14:40:29 CST
+ncverilog
+	/home/YanYouChen/summerwork1/ICC_91_0128/sim/testfixture.v
+	/home/YanYouChen/summerwork1/ICC_91_0128/syn/mac_syn.v
+	-v
+	/home/YanYouChen/summerwork1/ICC_91_0128/sim/fsa0m_a_generic_core_21.lib.src
+	+nc64bit
+	+access+r
+	+define+SHM_FILE="mac.shm"
+	+define+FSDB_FILE="mac.fsdb"
+	+define+SDF
+	+define+SDFFILE="/home/YanYouChen/summerwork1/ICC_91_0128/syn/mac_syn.sdf"
+file: /home/YanYouChen/summerwork1/ICC_91_0128/sim/testfixture.v
+	module worklib.mac_sim:v
+		errors: 0, warnings: 0
+file: /home/YanYouChen/summerwork1/ICC_91_0128/syn/mac_syn.v
+	module worklib.mac:v
+		errors: 0, warnings: 0
+		Caching library 'fsa0m_a_generic_core_21' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mac:v <0x1454e92a>
+			streams:   0, words:     0
+		worklib.mac_sim:v <0x7fa4620e>
+			streams:  14, words: 72605
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                 1264      40
+		UDPs:                     246       2
+		Primitives:              2864       8
+		Timing outputs:          1518      27
+		Registers:                164      24
+		Scalar wires:            1665       -
+		Expanded wires:            35       3
+		Always blocks:              3       3
+		Initial blocks:             3       3
+		Pseudo assignments:         5       5
+		Timing checks:           1278     144
+		Delayed tcheck signals:   426     143
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.mac_sim:v
+Loading snapshot worklib.mac_sim:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+start test
+------------------------------
+a1. test MUL_16, cycle = 00000001
+------------------------------
+a2. test MAC_16, overflow, cycle = 00000005
+------------------------------
+a3. test stall, cycle = 00000011
+------------------------------
+a4. test SAT_16, cycle = 00000013
+------------------------------
+a5. test MAC_16, cycle = 00000015
+------------------------------
+a6. stall insertion, cycle = 00000021
+a7. test stall, cycle = 00000026
+a8. test SAT_16, cycle = 00000027
+------------------------------
+b1. test MUL_8, cycle = 0000002a
+------------------------------
+b2. test MAC_8, overflow, cycle = 0000002e
+------------------------------
+b3. test stall, cycle = 0000003a
+------------------------------
+b4. test SAT_8, cycle = 0000003c
+------------------------------
+b5. test MAC_8, cycle = 0000003e
+------------------------------
+b6. stall insertion, cycle = 0000004a
+b7. test stall, cycle = 0000004f
+b8. test SAT_8, cycle = 00000051
+=================================================
+Congratulation!, Your design PASSed all the test patterns 
+=================================================
+Simulation complete via $finish(1) at time 1744 NS + 0
+../sim/testfixture.v:172      $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Jul 25, 2023 at 14:40:30 CST  (total: 00:00:01)

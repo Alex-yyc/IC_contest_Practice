@@ -1,0 +1,28 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+/home/YanYouChen/summerwork1/ICC_91_0128/sim/testfixture.v
+/home/YanYouChen/summerwork1/ICC_91_0128/syn/mac_syn.v
+-VFILE
+/home/YanYouChen/summerwork1/ICC_91_0128/sim/fsa0m_a_generic_core_21.lib.src
+-DEFINE
+SHM_FILE=\"mac.shm\"
+-DEFINE
+FSDB_FILE=\"mac.fsdb\"
+-DEFINE
+SDF
+-DEFINE
+SDFFILE=\"/home/YanYouChen/summerwork1/ICC_91_0128/syn/mac_syn.sdf\"
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND
