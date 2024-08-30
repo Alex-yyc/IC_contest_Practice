@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/YanYouChen/summer/summerwork2_103/src
+-DEFINE
+FSDB_FILE=\"SET.fsdb\"
+-DEFINE
+MD1

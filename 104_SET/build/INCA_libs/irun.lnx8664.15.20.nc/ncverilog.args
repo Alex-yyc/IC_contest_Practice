@@ -1,0 +1,12 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/YanYouChen/summer/summerwork2_103/sim/testfixture1.v
+/home/YanYouChen/summer/summerwork2_103/src/def.v
+/home/YanYouChen/summer/summerwork2_103/src/SET.v
++incdir+/home/YanYouChen/summer/summerwork2_103/src
++nc64bit
++access+r
++define+FSDB_FILE=\"SET.fsdb\"
++define+MD1

@@ -1,0 +1,1752 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/home/YanYouChen/2024icsontestpratice/109_GeoFence/build/geofence.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/X\[9:0\]" \
+           "/testfixture/u_geofence/Y\[9:0\]"
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/R\[10:0\]"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSelectGroup -win $_nWave1 {G2}
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/clk"
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSelectGroup -win $_nWave1 {G2}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 4 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 4 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/vector_x\[0:4\]" \
+           "/testfixture/u_geofence/vector_y\[0:4\]"
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G2" 2)}
+wvSetPosition -win $_nWave1 {("G2" 2)}
+wvSelectGroup -win $_nWave1 {G3}
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/radius\[0:5\]"
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSelectGroup -win $_nWave1 {G4}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/stage"
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G5" 0)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/count\[2:0\]" \
+           "/testfixture/u_geofence/cur_state\[3:0\]"
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G5" 0)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G5" 0)}
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/next_state\[3:0\]"
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 2 3 )} 
+wvExpandBus -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G4" 3 )} 
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvCollapseBus -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 2 3 )} 
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G4" 3)}
+wvSetPosition -win $_nWave1 {("G4" 4)}
+wvSetPosition -win $_nWave1 {("G5" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSelectGroup -win $_nWave1 {G6}
+wvSelectGroup -win $_nWave1 {G6}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[2:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+{/testfixture/u_geofence/next_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 63105.913922 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 47794.100306 -snap {("G3" 0)}
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 2 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 2 )} {( "G3" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 2 )} {( "G3" 1 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvSetCursor -win $_nWave1 37173.189127 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 52042.464778 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 47440.069933 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 53016.048302 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 47174.547154 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 53016.048302 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 48502.161051 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 52307.987557 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 47440.069933 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 51953.957184 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 47263.054747 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 52130.972371 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 47174.547154 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 52662.017930 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 48856.191424 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 26640.785541 -snap {("G6" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 52219.479964 -snap {("G2" 2)}
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetCursor -win $_nWave1 40536.477667 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 27525.861473 -snap {("G6" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G5" 3)}
+wvSetPosition -win $_nWave1 {("G5" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+{/testfixture/u_geofence/next_state\[3:0\]} \
+{/testfixture/u_geofence/count\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvSelectSignal -win $_nWave1 {( "G5" 3 )} 
+wvSetPosition -win $_nWave1 {("G5" 3)}
+wvSetPosition -win $_nWave1 {("G5" 3)}
+wvSetPosition -win $_nWave1 {("G5" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+{/testfixture/u_geofence/next_state\[3:0\]} \
+{/testfixture/u_geofence/count\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvSelectSignal -win $_nWave1 {( "G5" 3 )} 
+wvSetPosition -win $_nWave1 {("G5" 3)}
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetPosition -win $_nWave1 {("G5" 0)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 50006.790135 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 57883.965926 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 62663.375957 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 52396.495150 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 47971.115492 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 51865.449591 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 52307.987557 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 52750.525523 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 48679.176238 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 50891.866067 -snap {("G2" 2)}
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSetRadix -win $_nWave1 -format Bin
+wvSetCursor -win $_nWave1 48413.653458 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 52219.479964 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 57441.427960 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 52662.017930 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 67265.770801 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 53724.109048 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 30004.074081 -snap {("G6" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 48679.176238 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 44430.811766 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 47263.054747 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 42218.121937 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 47528.577527 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 52573.510337 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 57175.905181 -snap {("G2" 1)}
+wvSetCursor -win $_nWave1 53458.586268 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 48236.638272 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 52662.017930 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 58149.488706 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 30092.581674 -snap {("G6" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 63017.406329 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 89658.191870 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 67708.308767 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 67354.278394 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 77532.651608 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 82223.554045 -snap {("G1" 1)}
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvSetCursor -win $_nWave1 31154.672792 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 15842.859176 -snap {("G6" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/sqrt_in\[21:0\]" \
+           "/testfixture/u_geofence/sqrt_out\[10:0\]"
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvSetPosition -win $_nWave1 {("G6" 2)}
+wvSetPosition -win $_nWave1 {("G6" 2)}
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetPosition -win $_nWave1 {("G6" 2)}
+wvSetPosition -win $_nWave1 {("G6" 1)}
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/vector_len\[0:4\]"
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvSetPosition -win $_nWave1 {("G6" 1)}
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/hex_edge_x\[0:3\]" \
+           "/testfixture/u_geofence/hex_edge_y\[0:3\]"
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+{/testfixture/u_geofence/next_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/sqrt_in\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G6" 1 )} 
+wvSetPosition -win $_nWave1 {("G6" 1)}
+wvSetPosition -win $_nWave1 {("G6" 2)}
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvSetPosition -win $_nWave1 {("G7" 1)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G8" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSelectGroup -win $_nWave1 {G9}
+wvSetCursor -win $_nWave1 45138.872511 -snap {("G8" 1)}
+wvSelectSignal -win $_nWave1 {( "G6" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 2 )} 
+wvSetCursor -win $_nWave1 76736.083269 -snap {("G5" 2)}
+wvSelectSignal -win $_nWave1 {( "G5" 2 )} 
+wvSetPosition -win $_nWave1 {("G5" 2)}
+wvSetPosition -win $_nWave1 {("G6" 0)}
+wvSetPosition -win $_nWave1 {("G6" 2)}
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvSetPosition -win $_nWave1 {("G7" 1)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G8" 0)}
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSelectGroup -win $_nWave1 {G10}
+wvSetCursor -win $_nWave1 82843.107197 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 18055.549005 -snap {("G10" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G6" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 1 2 )} 
+wvSelectSignal -win $_nWave1 {( "G6" 1 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSetCursor -win $_nWave1 87671.196404 -snap {("G6" 1)}
+wvSetCursor -win $_nWave1 92539.114028 -snap {("G6" 2)}
+wvSetCursor -win $_nWave1 96964.493686 -snap {("G6" 2)}
+wvSetCursor -win $_nWave1 85458.506575 -snap {("G6" 1)}
+wvSetCursor -win $_nWave1 88202.241963 -snap {("G6" 2)}
+wvSetCursor -win $_nWave1 64216.684217 -snap {("G10" 0)}
+wvSetCursor -win $_nWave1 71828.337228 -snap {("G10" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 2 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 76696.254852 -snap {("G8" 0)}
+wvSetCursor -win $_nWave1 88821.795115 -snap {("G10" 0)}
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSetCursor -win $_nWave1 71739.829635 -snap {("G10" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+{/testfixture/u_geofence/sqrt_in\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/next_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvGetSignalClose -win $_nWave1
+wvSelectGroup -win $_nWave1 {G8}
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvSetCursor -win $_nWave1 123693.786820 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 112453.322489 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 108116.450424 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 107939.435238 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 112453.322489 -snap {("G4" 1)}
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+{/testfixture/u_geofence/sqrt_in\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/next_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 73775.504278 -snap {("G10" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvUnknownSaveResult -win $_nWave1 -clear
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/sqrt_in0\[21:0\]" \
+           "/testfixture/u_geofence/sqrt_in1\[21:0\]" \
+           "/testfixture/u_geofence/sqrt_out0\[10:0\]" \
+           "/testfixture/u_geofence/sqrt_out1\[10:0\]"
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSelectSignal -win $_nWave1 {( "G9" 5 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/edge_len\[0:3\]"
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 107054.359306 -snap {("G10" 0)}
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSetCursor -win $_nWave1 87848.211590 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 113072.875641 -snap {("G8" 1)}
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 2 3 4 5 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 2 3 4 5 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetRadix -win $_nWave1 -2Com
+wvResizeWindow -win $_nWave1 8 31 1920 1137
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G9" 5)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 5)}
+wvSelectSignal -win $_nWave1 {( "G9" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 3 4 )} 
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 5)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G11" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSelectGroup -win $_nWave1 {G12}
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectGroup -win $_nWave1 {G10}
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G11" 1 )} 
+wvSetRadix -win $_nWave1 -Unsigned
+wvSetRadix -win $_nWave1 -2Com
+wvSetCursor -win $_nWave1 83144.936879 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 93674.083162 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 96859.371114 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 102522.105249 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 105884.353642 -snap {("G11" 1)}
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G11" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetCursor -win $_nWave1 88542.230352 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 92523.840291 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 88896.151235 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 92258.399628 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 97832.653543 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 93408.642500 -snap {("G11" 1)}
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetCursor -win $_nWave1 114732.375729 -snap {("G7" 2)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 93143.201837 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 101902.743703 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 107034.596514 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 107565.477839 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 112343.409766 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 91019.676536 -snap {("G10" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 2 )} 
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSetCursor -win $_nWave1 75181.717000 -snap {("G12" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 87303.507260 -snap {("G9" 3)}
+wvSetCursor -win $_nWave1 92612.320512 -snap {("G9" 4)}
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 3 )} 
+wvSetCursor -win $_nWave1 117740.703239 -snap {("G5" 1)}
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 5)}
+wvSetPosition -win $_nWave1 {("G9" 5)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G9" 5 )} 
+wvSetPosition -win $_nWave1 {("G9" 5)}
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSetPosition -win $_nWave1 {("G8" 2)}
+wvSelectGroup -win $_nWave1 {G12}
+wvSelectSignal -win $_nWave1 {( "G8" 2 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G8" 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 121279.912074 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 87480.467701 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 117740.703239 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 122341.674724 -snap {("G6" 0)}
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G11" 1 )} 
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 0)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G8" 2)}
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSetPosition -win $_nWave1 {("G8" 0)}
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSetPosition -win $_nWave1 {("G8" 2)}
+wvSetCursor -win $_nWave1 118890.946110 -snap {("G5" 0)}
+wvSetCursor -win $_nWave1 121899.273620 -snap {("G5" 1)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvSetCursor -win $_nWave1 67041.536680 -snap {("G12" 0)}
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 142869.085966 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 126146.324222 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 141984.283758 -snap {("G10" 1)}
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetCursor -win $_nWave1 128004.408860 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 132516.900125 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 138356.594702 -snap {("G11" 0)}
+wvSetCursor -win $_nWave1 142338.204641 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 84295.179750 -snap {("G12" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 152495.733997 -snap {("G5" 1)}
+wvSelectGroup -win $_nWave1 {G4}
+wvSetCursor -win $_nWave1 157981.507691 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 152407.253776 -snap {("G5" 0)}
+wvSetCursor -win $_nWave1 153557.496648 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 161520.716526 -snap {("G12" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G12" 0)}
+wvSetPosition -win $_nWave1 {("G11" 0)}
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvAddSignal -win $_nWave1 "/testfixture/u_geofence/triarea\[21:0\]"
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 168422.173754 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 163113.360502 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 183552.291523 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 192223.353169 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 204699.064311 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 158158.468133 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 145594.276770 -snap {("G9" 3)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G10" 4)}
+wvSetPosition -win $_nWave1 {("G10" 4)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G10" 3 4 )} 
+wvSetPosition -win $_nWave1 {("G10" 4)}
+wvSetPosition -win $_nWave1 {("G10" 4)}
+wvSetPosition -win $_nWave1 {("G10" 4)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G10" 3 4 )} 
+wvSetPosition -win $_nWave1 {("G10" 4)}
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G10" 3)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 2)}
+wvSetPosition -win $_nWave1 {("G8" 0)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G7" 1)}
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvSetPosition -win $_nWave1 {("G5" 1)}
+wvSetPosition -win $_nWave1 {("G5" 0)}
+wvSetPosition -win $_nWave1 {("G4" 2)}
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G4" 0)}
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G2" 2)}
+wvSetPosition -win $_nWave1 {("G2" 1)}
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 4)}
+wvSetPosition -win $_nWave1 {("G1" 6)}
+wvSetCursor -win $_nWave1 163290.320944 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 192134.872948 -snap {("G10" 2)}
+wvSearchNext -win $_nWave1
+wvSetCursor -win $_nWave1 187413.603899 -snap {("G1" 6)}
+wvSearchPrev -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 6 )} 
+wvSearchNext -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 353566.962600 -snap {("G1" 6)}
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSearchPrev -win $_nWave1
+wvSetCursor -win $_nWave1 289433.382683 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 298281.404770 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 304298.059790 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 307129.426858 -snap {("G10" 1)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 188993.751780 -snap {("G1" 6)}
+wvSetCursor -win $_nWave1 192886.881498 -snap {("G1" 6)}
+wvSetCursor -win $_nWave1 194833.446358 -snap {("G1" 5)}
+wvSetCursor -win $_nWave1 196426.090333 -snap {("G1" 4)}
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 223288.685389 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 182764.744231 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 191612.766318 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 194001.732281 -snap {("G1" 2)}
+wvSetCursor -win $_nWave1 221076.679868 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 186728.658126 -snap {("G1" 5)}
+wvSetCursor -win $_nWave1 195399.719771 -snap {("G1" 5)}
+wvSetCursor -win $_nWave1 194868.838446 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 222651.627799 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 217342.814547 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 222209.226695 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 233003.813641 -snap {("G3" 0)}
+wvSetCursor -win $_nWave1 248222.411631 -snap {("G4" 0)}
+wvSetCursor -win $_nWave1 247956.970968 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 170979.178811 -snap {("G12" 0)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 232561.412536 -snap {("G3" 0)}
+wvSetCursor -win $_nWave1 232030.531211 -snap {("G4" 0)}
+wvSetCursor -win $_nWave1 233092.293862 -snap {("G3" 1)}
+wvSetCursor -win $_nWave1 200000.691256 -snap {("G3" 0)}
+wvSetCursor -win $_nWave1 194514.917562 -snap {("G1" 3)}
+wvSetCursor -win $_nWave1 231588.130107 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 227429.559726 -snap {("G2" 1)}
+wvSetCursor -win $_nWave1 223094.028903 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 227518.039947 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 223713.390449 -snap {("G2" 2)}
+wvSelectSignal -win $_nWave1 {( "G3" 1 )} 
+wvSetPosition -win $_nWave1 {("G3" 1)}
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G2" 2)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G2" 2)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetCursor -win $_nWave1 226987.158622 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 222209.226695 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226456.277296 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 221943.786032 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226190.836634 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 222563.147578 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226544.757517 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 222651.627799 -snap {("G2" 1)}
+wvSetCursor -win $_nWave1 227341.079505 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 221412.904707 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 225836.915750 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 219997.221173 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226898.678401 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 221147.464044 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226456.277296 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 219289.379406 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 222740.108020 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 227252.599284 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 222209.226695 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226013.876192 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 222917.068462 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 226456.277296 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 232295.971874 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 229730.045469 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 232030.531211 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 228137.401493 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 231499.649886 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 227164.119063 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 231588.130107 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 190710.268065 -snap {("G10" 2)}
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetCursor -win $_nWave1 691756.062812 -snap {("G11" 0)}
+wvSetCursor -win $_nWave1 692640.865021 -snap {("G10" 2)}
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G10" 1 2 )} 
+wvShowFilterTextField -win $_nWave1 -on
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSetRadix -win $_nWave1 -Unsigned
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetRadix -win $_nWave1 -Unsigned
+wvSetCursor -win $_nWave1 700692.565120 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 691048.221045 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 698126.638715 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 697418.796948 -snap {("G1" 5)}
+wvSelectSignal -win $_nWave1 {( "G4" 1 )} 
+wvSelectGroup -win $_nWave1 {G3}
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetCursor -win $_nWave1 702816.090421 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 698834.480482 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 701754.327771 -snap {("G5" 1)}
+wvSelectSignal -win $_nWave1 {( "G10" 2 )} 
+wvSetCursor -win $_nWave1 640968.416032 -snap {("G12" 0)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 81401.803201 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 57069.742462 -snap {("G7" 1)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 119182.857513 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 136171.059920 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 145461.483112 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 184321.996118 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 183083.273026 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 66006.244770 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 81313.322980 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 87329.977999 -snap {("G5" 1)}
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSetCursor -win $_nWave1 66768.680251 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 20438.931021 -snap {("G1" 4)}
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSetCursor -win $_nWave1 56007.979811 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 58485.425996 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 61670.713947 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 57866.064450 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 52645.731418 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 64767.521677 -snap {("G4" 0)}
+wvSetCursor -win $_nWave1 63263.357923 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 67244.967862 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 78835.876796 -snap {("G5" 0)}
+wvSetCursor -win $_nWave1 82994.447177 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 86887.576895 -snap {("G4" 2)}
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 2 )} 
+wvSetCursor -win $_nWave1 86799.096674 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 89011.102196 -snap {("G7" 0)}
+wvSetCursor -win $_nWave1 87329.977999 -snap {("G5" 0)}
+wvSetCursor -win $_nWave1 86445.175791 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 86976.057116 -snap {("G5" 0)}
+wvSetCursor -win $_nWave1 87683.898883 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 73438.583323 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 52734.211639 -snap {("G2" 1)}
+wvSetCursor -win $_nWave1 70784.176697 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 87064.537337 -snap {("G5" 0)}
+wvSetCursor -win $_nWave1 88480.220871 -snap {("G4" 1)}
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSetCursor -win $_nWave1 92815.751693 -snap {("G8" 2)}
+wvSelectSignal -win $_nWave1 {( "G8" 2 )} 
+wvSetCursor -win $_nWave1 112440.664683 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 92709.575428 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 98283.829343 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 101823.038178 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 97222.066693 -snap {("G8" 2)}
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G7" 1 )} 
+wvSetCursor -win $_nWave1 66342.469609 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 92709.575428 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 68731.435572 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 88551.005048 -snap {("G7" 1)}
+wvSetCursor -win $_nWave1 82445.869807 -snap {("G5" 1)}
+wvSelectSignal -win $_nWave1 {( "G7" 1 2 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 1 2 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 1 2 3 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSetCursor -win $_nWave1 87046.841293 -snap {("G7" 1)}
+wvSetCursor -win $_nWave1 112440.664683 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 110405.619603 -snap {("G7" 1)}
+wvSetCursor -win $_nWave1 107839.693197 -snap {("G8" 0)}
+wvSetCursor -win $_nWave1 107928.173418 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 112883.065787 -snap {("G8" 1)}
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSetCursor -win $_nWave1 116599.235064 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 113325.466891 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 116864.675726 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 113590.907554 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 116422.274622 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 113060.026229 -snap {("G4" 1)}
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSetCursor -win $_nWave1 99345.591994 -snap {("G12" 0)}
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetCursor -win $_nWave1 122739.762392 -snap {("G8" 3)}
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 4 )} 
+wvSelectSignal -win $_nWave1 {( "G9" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetCursor -win $_nWave1 149460.789095 -snap {("G12" 0)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 141143.648333 -snap {("G10" 1)}
+wvSelectSignal -win $_nWave1 {( "G10" 1 )} 
+wvSetCursor -win $_nWave1 157424.008973 -snap {("G10" 2)}
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSetCursor -win $_nWave1 182906.312584 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 202106.520513 -snap {("G12" 0)}
+wvSetCursor -win $_nWave1 139816.445020 -snap {("G12" 0)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+{/testfixture/u_geofence/radius\[0:5\]} \
+{/testfixture/u_geofence/obj\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G2" 4 )} 
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 3)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+{/testfixture/u_geofence/radius\[0:5\]} \
+{/testfixture/u_geofence/obj\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G2" 4 )} 
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G4" 1)}
+wvSetPosition -win $_nWave1 {("G7" 0)}
+wvSetPosition -win $_nWave1 {("G7" 1)}
+wvSetPosition -win $_nWave1 {("G7" 2)}
+wvSetPosition -win $_nWave1 {("G8" 0)}
+wvSetPosition -win $_nWave1 {("G8" 1)}
+wvSetPosition -win $_nWave1 {("G8" 2)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G11" 0)}
+wvSetPosition -win $_nWave1 {("G12" 0)}
+wvSetPosition -win $_nWave1 {("G11" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetCursor -win $_nWave1 192373.696216 -snap {("G11" 1)}
+wvSetCursor -win $_nWave1 522564.184462 -snap {("G11" 1)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvGetSignalSetScope -win $_nWave1 "/testfixture/u_geofence"
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+{/testfixture/u_geofence/obj\[7:0\]} \
+{/testfixture/u_geofence/S\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G11" 2 )} 
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture/u_geofence/clk} \
+{/testfixture/u_geofence/X\[9:0\]} \
+{/testfixture/u_geofence/Y\[9:0\]} \
+{/testfixture/u_geofence/R\[10:0\]} \
+{/testfixture/u_geofence/is_inside} \
+{/testfixture/u_geofence/valid} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture/u_geofence/vector_x\[0:4\]} \
+{/testfixture/u_geofence/vector_y\[0:4\]} \
+{/testfixture/u_geofence/radius\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+{/testfixture/u_geofence/count\[3:0\]} \
+{/testfixture/u_geofence/stage} \
+}
+wvAddSignal -win $_nWave1 -group {"G5" \
+{/testfixture/u_geofence/cur_state\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G6" \
+}
+wvAddSignal -win $_nWave1 -group {"G7" \
+{/testfixture/u_geofence/hex_edge_x\[0:3\]} \
+{/testfixture/u_geofence/hex_edge_y\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G8" \
+{/testfixture/u_geofence/vector_len\[0:4\]} \
+{/testfixture/u_geofence/edge_len\[0:3\]} \
+{/testfixture/u_geofence/S\[0:3\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G9" \
+{/testfixture/u_geofence/sqrt_in0\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out0\[10:0\]} \
+{/testfixture/u_geofence/sqrt_in1\[21:0\]} \
+{/testfixture/u_geofence/sqrt_out1\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G10" \
+{/testfixture/u_geofence/hexarea\[21:0\]} \
+{/testfixture/u_geofence/triarea\[21:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G11" \
+{/testfixture/u_geofence/obj\[7:0\]} \
+{/testfixture/u_geofence/S\[0:5\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "G11" 2 )} 
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvSetPosition -win $_nWave1 {("G11" 2)}
+wvGetSignalClose -win $_nWave1
+wvSetPosition -win $_nWave1 {("G11" 1)}
+wvSetPosition -win $_nWave1 {("G11" 0)}
+wvSetPosition -win $_nWave1 {("G10" 2)}
+wvSetPosition -win $_nWave1 {("G10" 1)}
+wvSetPosition -win $_nWave1 {("G10" 0)}
+wvSetPosition -win $_nWave1 {("G9" 4)}
+wvSetPosition -win $_nWave1 {("G9" 3)}
+wvSetPosition -win $_nWave1 {("G9" 2)}
+wvSetPosition -win $_nWave1 {("G9" 1)}
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 4)}
+wvSetPosition -win $_nWave1 {("G8" 4)}
+wvSetPosition -win $_nWave1 {("G8" 4)}
+wvSetPosition -win $_nWave1 {("G8" 4)}
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G9" 0)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetRadix -win $_nWave1 -2Com
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSetCursor -win $_nWave1 122085.008758 -snap {("G8" 3)}
+wvSetCursor -win $_nWave1 154079.456624 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 158414.987447 -snap {("G10" 0)}
+wvSetCursor -win $_nWave1 183808.810837 -snap {("G11" 0)}
+wvSetCursor -win $_nWave1 182127.686640 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 348382.021657 -snap {("G11" 0)}
+wvSetCursor -win $_nWave1 348028.100773 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 62643.996377 -snap {("G12" 0)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 20792.851905 -snap {("G1" 3)}
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSetCursor -win $_nWave1 67598.888745 -snap {("G2" 3)}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 )} 
+wvSetRadix -win $_nWave1 -Unsigned
+wvSetCursor -win $_nWave1 27163.427807 -snap {("G2" 1)}
+wvSetCursor -win $_nWave1 41497.223588 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 63263.357923 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 34684.246581 -snap {("G12" 0)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvSetPosition -win $_nWave1 {("G8" 3)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 48133.240154 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 51937.889651 -snap {("G2" 2)}
+wvSetCursor -win $_nWave1 49814.364350 -snap {("G2" 2)}
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSetCursor -win $_nWave1 67775.849187 -snap {("G2" 3)}
+wvSetCursor -win $_nWave1 82640.526293 -snap {("G4" 1)}
+wvSetCursor -win $_nWave1 83702.288944 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 87418.458220 -snap {("G4" 2)}
+wvSetCursor -win $_nWave1 87860.859325 -snap {("G6" 0)}
+wvSetCursor -win $_nWave1 85737.334024 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 93453.669616 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 99470.324636 -snap {("G8" 2)}
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSetCursor -win $_nWave1 102832.573029 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 107168.103851 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 112919.318208 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 112653.877545 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 93011.268512 -snap {("G8" 2)}
+wvSelectSignal -win $_nWave1 {( "G8" 1 )} 
+wvSetCursor -win $_nWave1 112299.956662 -snap {("G8" 1)}
+wvSetCursor -win $_nWave1 122652.142504 -snap {("G8" 2)}
+wvSetCursor -win $_nWave1 122298.221620 -snap {("G9" 0)}
+wvSetCursor -win $_nWave1 122209.741399 -snap {("G8" 3)}
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetCursor -win $_nWave1 142807.936818 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 148470.670954 -snap {("G5" 1)}
+wvSetCursor -win $_nWave1 142807.936818 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 127943.259712 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 133694.474068 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 138383.925775 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 142542.496156 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 127235.417945 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 134225.355394 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 137499.123566 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 141834.654389 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 129358.943246 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 133163.592743 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 136437.360915 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 142277.055493 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 122369.005797 -snap {("G8" 3)}
+wvSetCursor -win $_nWave1 127589.338828 -snap {("G10" 0)}
+wvSetCursor -win $_nWave1 127146.937724 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 123696.209110 -snap {("G10" 0)}
+wvSetCursor -win $_nWave1 127146.937724 -snap {("G10" 0)}
+wvSetCursor -win $_nWave1 122457.486018 -snap {("G10" 0)}
+wvSetCursor -win $_nWave1 129181.982804 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 122899.887122 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 127235.417945 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 122722.926680 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 127500.858607 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 123342.288227 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 127412.378387 -snap {("G9" 4)}
+wvSetCursor -win $_nWave1 122988.367343 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 127854.779491 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 123784.689331 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 127766.299270 -snap {("G9" 2)}
+wvSetCursor -win $_nWave1 124492.531098 -snap {("G9" 3)}
+wvSetCursor -win $_nWave1 148028.269849 -snap {("G10" 1)}
+wvSetCursor -win $_nWave1 153337.083102 -snap {("G9" 4)}
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G8" 3 )} 
+wvSetCursor -win $_nWave1 187932.849462 -snap {("G2" 0)}
+wvSetCursor -win $_nWave1 188021.329683 -snap {("G1" 6)}
+wvSelectSignal -win $_nWave1 {( "G4" 2 )} 
+wvSetCursor -win $_nWave1 157761.094145 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 164662.551373 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 167759.359104 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 172625.771252 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 178111.544946 -snap {("G10" 2)}
+wvSetCursor -win $_nWave1 182889.476873 -snap {("G10" 2)}
+wvExit

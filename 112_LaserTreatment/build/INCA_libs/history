@@ -1,0 +1,6 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(12May2024:17:09:17):( ncverilog /home/YanYouChen/2024icsontestpratice/112_LaserTreatment/sim/tb.sv /home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src/LASER.v +incdir+/home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src +nc64bit +access+r +define+USECOLOR +define+FSDB_FILE="LASER.fsdb" )
+s2::(12May2024:17:12:29):( ncverilog /home/YanYouChen/2024icsontestpratice/112_LaserTreatment/sim/tb.sv /home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src/LASER.v +incdir+/home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src +nc64bit +access+r +define+USECOLOR +define+FSDB_FILE="LASER.fsdb" )

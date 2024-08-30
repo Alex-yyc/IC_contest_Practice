@@ -1,0 +1,5 @@
+ncverilog testfixture.v DT.v +define+TB1 +define+FSDB +access+r
+                             // +define+TB2
+
+
+ncverilog testfixture.v DT_syn.v –v tsmc13_neg.v +define+SDF +define+TB1

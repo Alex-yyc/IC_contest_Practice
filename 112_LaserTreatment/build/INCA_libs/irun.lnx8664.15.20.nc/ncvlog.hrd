@@ -1,0 +1,10 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-INCDIR
+/home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src
+-DEFINE
+USECOLOR
+-DEFINE
+FSDB_FILE=\"LASER.fsdb\"

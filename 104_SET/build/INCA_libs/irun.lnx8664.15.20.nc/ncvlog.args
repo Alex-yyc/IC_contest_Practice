@@ -1,0 +1,25 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+/home/YanYouChen/summer/summerwork2_103/sim/testfixture1.v
+/home/YanYouChen/summer/summerwork2_103/src/def.v
+/home/YanYouChen/summer/summerwork2_103/src/SET.v
+-INCDIR
+/home/YanYouChen/summer/summerwork2_103/src
+-DEFINE
+FSDB_FILE=\"SET.fsdb\"
+-DEFINE
+MD1
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND

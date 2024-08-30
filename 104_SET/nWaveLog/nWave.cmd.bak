@@ -1,0 +1,131 @@
+wvResizeWindow -win $_nWave1 0 24 1920 1129
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 {/home/YanYouChen/summer/summerwork2_103/build/SET.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture1"
+wvGetSignalSetScope -win $_nWave1 "/testfixture1/u_set"
+wvAddSignal -win $_nWave1 "/testfixture1/u_set/clk" "/testfixture1/u_set/rst"
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvAddSignal -win $_nWave1 "/testfixture1/u_set/busy" "/testfixture1/u_set/valid" \
+           "/testfixture1/u_set/x\[3:0\]" "/testfixture1/u_set/y\[3:0\]"
+wvSetPosition -win $_nWave1 {("G2" 0)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture1/u_set/clk} \
+{/testfixture1/u_set/rst} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture1/u_set/busy} \
+{/testfixture1/u_set/valid} \
+{/testfixture1/u_set/x\[3:0\]} \
+{/testfixture1/u_set/y\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+}
+wvSetPosition -win $_nWave1 {("G2" 4)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 106233.241003 -snap {("G3" 0)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetCursor -win $_nWave1 3860.219513 -snap {("G1" 1)}
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvZoom -win $_nWave1 3928.845638 4409.228511
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/testfixture1"
+wvGetSignalSetScope -win $_nWave1 "/testfixture1/u_set"
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvAddSignal -win $_nWave1 "/testfixture1/u_set/setA_r\[3:0\]" \
+           "/testfixture1/u_set/setA_x\[3:0\]" \
+           "/testfixture1/u_set/setA_y\[3:0\]"
+wvSetPosition -win $_nWave1 {("G3" 0)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/testfixture1/u_set/rst} \
+{/testfixture1/u_set/clk} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/testfixture1/u_set/busy} \
+{/testfixture1/u_set/valid} \
+{/testfixture1/u_set/x\[3:0\]} \
+{/testfixture1/u_set/y\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G3" \
+{/testfixture1/u_set/setA_r\[3:0\]} \
+{/testfixture1/u_set/setA_x\[3:0\]} \
+{/testfixture1/u_set/setA_y\[3:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G4" \
+}
+wvSetPosition -win $_nWave1 {("G3" 3)}
+wvGetSignalClose -win $_nWave1
+wvSetCursor -win $_nWave1 5433.636607 -snap {("G4" 0)}
+wvSetCursor -win $_nWave1 4495.099375 -snap {("G2" 1)}
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 4 )} 
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G1" 1 2 )} {( "G2" 1 2 3 4 )} {( "G3" 1 2 3 )} \
+           
+wvSelectSignal -win $_nWave1 {( "G3" 1 )} 
+wvSetSearchMode -win $_nWave1 -value "2" -case off -skipGlitch off -X2Y off
+wvSelectSignal -win $_nWave1 {( "G3" 1 )} 
+wvSearchNext -win $_nWave1
+wvSearchNext -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 1 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 2 )} 
+wvSelectSignal -win $_nWave1 {( "G2" 4 )} 
+wvExit

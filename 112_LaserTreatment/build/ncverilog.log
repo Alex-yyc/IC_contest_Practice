@@ -1,0 +1,61 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on May 12, 2024 at 17:12:29 CST
+ncverilog
+	/home/YanYouChen/2024icsontestpratice/112_LaserTreatment/sim/tb.sv
+	/home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src/LASER.v
+	+incdir+/home/YanYouChen/2024icsontestpratice/112_LaserTreatment/src
+	+nc64bit
+	+access+r
+	+define+USECOLOR
+	+define+FSDB_FILE="LASER.fsdb"
+Loading snapshot worklib.testfixture:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux x86_64/64bit, 02/09/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'LASER.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+*******************************
+** Simulation Start          **
+*******************************
+== PATTERN img1.pattern
+---- Used Cycle:      32276
+---- Get Return: C1(11,12),C2( 4,10)
+---- cover =  30, optimum =  30
+== PATTERN img2.pattern
+---- Used Cycle:      32276
+---- Get Return: C1(11, 6),C2( 5,11)
+---- cover =  28, optimum =  28
+== PATTERN img3.pattern
+---- Used Cycle:      32276
+---- Get Return: C1(10, 5),C2( 5,10)
+---- cover =  29, optimum =  29
+== PATTERN img4.pattern
+---- Used Cycle:      32276
+---- Get Return: C1(10, 5),C2( 4, 9)
+---- cover =  30, optimum =  30
+== PATTERN img5.pattern
+---- Used Cycle:      32276
+---- Get Return: C1( 8,12),C2( 2,10)
+---- cover =  23, optimum =  23
+== PATTERN img6.pattern
+---- Used Cycle:      32276
+---- Get Return: C1( 9, 9),C2(13, 2)
+---- cover =  30, optimum =  30
+
+*******************************
+**   Finish Simulation       **
+**   RUN CYCLE =     193911  **
+**   Cover total = 170/170   **
+*******************************
+Simulation complete via $finish(1) at time 1551284 NS + 0
+../sim/tb.sv:255                  $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on May 12, 2024 at 17:15:00 CST  (total: 00:02:31)

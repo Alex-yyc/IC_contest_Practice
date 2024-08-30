@@ -1,0 +1,24 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/sim/tb.sv
+/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/src/JAM.v
+-INCDIR
+/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/src
+-DEFINE
+P1
+-DEFINE
+FSDB_FILE=\"JAM.fsdb\"
+-CDSLIB
+./INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./INCA_libs/irun.lnx8664.15.20.nc/xllibs
+-ALLOWUNBOUND

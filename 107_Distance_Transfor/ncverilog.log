@@ -1,0 +1,303 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Mar 26, 2024 at 20:48:05 CST
+ncverilog
+	testfixture.v
+	DT_syn.v
+	-v
+	tsmc13_neg.v
+	+define+SDF
+	+nc64bit
+	+define+TB1
+file: testfixture.v
+	module worklib.testfixture:v
+		errors: 0, warnings: 0
+	module worklib.sti_ROM:v
+		errors: 0, warnings: 0
+	module worklib.res_RAM:v
+		errors: 0, warnings: 0
+file: DT_syn.v
+	module worklib.DT:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX1 \y_reg[1]  ( .D(n298), .CK(clk), .RN(n920), .Q(\C73/DATA2_1 ) );
+                  |
+ncelab: *W,CUVWSP (./DT_syn.v,93|18): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX1 \count_reg[2]  ( .D(n313), .CK(clk), .RN(n920), .Q(count[2]) );
+                      |
+ncelab: *W,CUVWSP (./DT_syn.v,98|22): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18307): QN
+
+  DFFRX2 \res_addr_reg[13]  ( .D(n283), .CK(clk), .RN(n920), .Q(res_addr[13])
+                          |
+ncelab: *W,CUVWSP (./DT_syn.v,129|26): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_do_reg[3]  ( .D(n318), .CK(clk), .RN(n920), .Q(res_do[3]) );
+                       |
+ncelab: *W,CUVWSP (./DT_syn.v,143|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 res_wr_reg ( .D(n271), .CK(clk), .RN(reset), .Q(res_wr) );
+                  |
+ncelab: *W,CUVWSP (./DT_syn.v,144|18): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[8]  ( .D(n274), .CK(clk), .RN(n920), .Q(sti_addr[8]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,145|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[7]  ( .D(n275), .CK(clk), .RN(n920), .Q(sti_addr[7]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,146|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[3]  ( .D(n279), .CK(clk), .RN(n920), .Q(sti_addr[3]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,147|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_do_reg[0]  ( .D(n321), .CK(clk), .RN(n920), .Q(res_do[0]) );
+                       |
+ncelab: *W,CUVWSP (./DT_syn.v,148|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_do_reg[5]  ( .D(n316), .CK(clk), .RN(reset), .Q(res_do[5]) );
+                       |
+ncelab: *W,CUVWSP (./DT_syn.v,149|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_do_reg[6]  ( .D(n315), .CK(clk), .RN(n920), .Q(res_do[6]) );
+                       |
+ncelab: *W,CUVWSP (./DT_syn.v,150|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_do_reg[4]  ( .D(n317), .CK(clk), .RN(n920), .Q(res_do[4]) );
+                       |
+ncelab: *W,CUVWSP (./DT_syn.v,151|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 res_rd_reg ( .D(n331), .CK(clk), .RN(n920), .Q(res_rd) );
+                  |
+ncelab: *W,CUVWSP (./DT_syn.v,152|18): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[9]  ( .D(n273), .CK(clk), .RN(n920), .Q(sti_addr[9]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,153|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[6]  ( .D(n276), .CK(clk), .RN(n920), .Q(sti_addr[6]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,154|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[5]  ( .D(n277), .CK(clk), .RN(n920), .Q(sti_addr[5]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,155|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[2]  ( .D(n280), .CK(clk), .RN(n920), .Q(sti_addr[2]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,156|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[1]  ( .D(n281), .CK(clk), .RN(n920), .Q(sti_addr[1]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,157|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[0]  ( .D(n282), .CK(clk), .RN(n920), .Q(sti_addr[0]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,158|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_do_reg[7]  ( .D(n314), .CK(clk), .RN(n920), .Q(res_do[7]) );
+                       |
+ncelab: *W,CUVWSP (./DT_syn.v,159|23): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 done_reg ( .D(n332), .CK(clk), .RN(n920), .Q(done) );
+                |
+ncelab: *W,CUVWSP (./DT_syn.v,160|16): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 sti_rd_reg ( .D(n272), .CK(clk), .RN(n920), .Q(sti_rd) );
+                  |
+ncelab: *W,CUVWSP (./DT_syn.v,161|18): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[0]  ( .D(n296), .CK(clk), .RN(n920), .Q(res_addr[0]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,162|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[12]  ( .D(n284), .CK(clk), .RN(n920), .Q(res_addr[12])
+                          |
+ncelab: *W,CUVWSP (./DT_syn.v,163|26): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[11]  ( .D(n285), .CK(clk), .RN(n920), .Q(res_addr[11])
+                          |
+ncelab: *W,CUVWSP (./DT_syn.v,165|26): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[10]  ( .D(n286), .CK(clk), .RN(reset), .Q(res_addr[10])
+                          |
+ncelab: *W,CUVWSP (./DT_syn.v,167|26): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[9]  ( .D(n287), .CK(clk), .RN(reset), .Q(res_addr[9])
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,169|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[7]  ( .D(n289), .CK(clk), .RN(n920), .Q(res_addr[7]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,171|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[6]  ( .D(n290), .CK(clk), .RN(n920), .Q(res_addr[6]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,172|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[5]  ( .D(n291), .CK(clk), .RN(reset), .Q(res_addr[5])
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,173|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[4]  ( .D(n292), .CK(clk), .RN(n920), .Q(res_addr[4]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,175|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[3]  ( .D(n293), .CK(clk), .RN(n920), .Q(res_addr[3]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,176|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[2]  ( .D(n294), .CK(clk), .RN(n920), .Q(res_addr[2]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,177|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[1]  ( .D(n295), .CK(clk), .RN(reset), .Q(res_addr[1])
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,178|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \sti_addr_reg[4]  ( .D(n278), .CK(clk), .RN(n920), .Q(sti_addr[4]) );
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,184|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+  DFFRX2 \res_addr_reg[8]  ( .D(n288), .CK(clk), .RN(reset), .Q(res_addr[8])
+                         |
+ncelab: *W,CUVWSP (./DT_syn.v,185|25): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,18376): QN
+
+	Reading SDF file from location "./DT_syn.sdf"
+	Annotating SDF timing data:
+		Compiled SDF file:     DT_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture.u_dut
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 1889  Annotated = 100.00% -- No. of Tchecks = 396  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        1889	        1889	      100.00
+		      $width	         198	         198	      100.00
+		  $setuphold	         198	         198	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.res_RAM:v <0x22cd2c42>
+			streams:   5, words:  2108
+		worklib.sti_ROM:v <0x7935d57e>
+			streams:   3, words:  1540
+		worklib.testfixture:v <0x591ccc7a>
+			streams:  10, words: 15955
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  691     112
+		UDPs:                      90       2
+		Primitives:              1164       8
+		Timing outputs:           724      30
+		Registers:                 85      25
+		Scalar wires:             796       -
+		Expanded wires:            24       2
+		Always blocks:              4       4
+		Initial blocks:            11      11
+		Pseudo assignments:         1       1
+		Timing checks:            594      81
+		Interconnect:            1695       -
+		Delayed tcheck signals:   198      69
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testfixture:v
+Loading snapshot worklib.testfixture:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+-----------------------------------------------------
+
+START!!! Simulation Start .....
+
+-----------------------------------------------------
+
+ Output pixel: 0 ~           0 are correct!
+
+ Output pixel: 0 ~        1000 are correct!
+
+ Output pixel: 0 ~        2000 are correct!
+
+ Output pixel: 0 ~        3000 are correct!
+
+ Output pixel: 0 ~        4000 are correct!
+
+ Output pixel: 0 ~        5000 are correct!
+
+ Output pixel: 0 ~        6000 are correct!
+
+ Output pixel: 0 ~        7000 are correct!
+
+ Output pixel: 0 ~        8000 are correct!
+
+ Output pixel: 0 ~        9000 are correct!
+
+ Output pixel: 0 ~       10000 are correct!
+
+ Output pixel: 0 ~       11000 are correct!
+
+ Output pixel: 0 ~       12000 are correct!
+
+ Output pixel: 0 ~       13000 are correct!
+
+ Output pixel: 0 ~       14000 are correct!
+
+ Output pixel: 0 ~       15000 are correct!
+
+ Output pixel: 0 ~       16000 are correct!
+
+-------------------------------------------------------------
+
+Congratulations!!! All data have been generated successfully!
+
+---------- The test result is ..... PASS --------------------
+
+                                                     
+
+-----------------------------------------------------
+
+Simulation complete via $finish(1) at time 1796914659 PS + 0
+./testfixture.v:173       #(`CYCLE/3); $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Mar 26, 2024 at 20:48:09 CST  (total: 00:00:04)

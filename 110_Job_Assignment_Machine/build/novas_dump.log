@@ -1,0 +1,169 @@
+ncsim(64) 15.20-s084
+Linux 5.15.0-97-generic #107~20.04.1-Ubuntu SMP Fri Feb 9 14:20:11 UTC 2024 x86_64
+CPU cores: 64
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8192 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1048576
+memorylocked	65536 kbytes
+maxproc			255839
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+PRIMETIME=/usr/cad/synopsys/primetime/cur
+SHELL=/bin/zsh
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LESS=-R
+SYNOPSYS=/home/nfs_cad/synopsys/icc/cur
+MTI_VCO_MODE=64
+LANGUAGE=en_US.UTF-8
+MAKE_TERMOUT=/dev/pts/3
+SYN_MAN_DIR=/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
+MGC_LOCATION_MAP=NO_MAP
+PWD=/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/build
+LOGNAME=YanYouChen
+XDG_SESSION_TYPE=tty
+MANPATH=:/home/nfs_cad/synopsys/synthesis/cur/doc/syn/man
+MAKEOVERRIDES=${-*-command-variables-*-}
+MGC_TMPDIR=/tmp
+OA_HOME=/usr/cad/cadence/INNOVUS/cur/oa
+MOTD_SHOWN=pam
+ENCOUNTER=/usr/cad/cadence/INNOVUS/cur/tools/fe
+HOME=/home/YanYouChen
+SHLIB_PATH=/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64:
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SYNTHESIS=/home/nfs_cad/synopsys/synthesis/cur
+SSH_CONNECTION=192.168.102.11 5729 140.116.245.122 22
+MFLAGS=
+LESSCLOSE=/usr/bin/lesspipe %s %s
+MAKEFLAGS= -- PATTERN=P1
+XDG_SESSION_CLASS=user
+TERM=xterm
+ZSH=/home/YanYouChen/.oh-my-zsh
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=YanYouChen
+MAKE_TERMERR=/dev/pts/3
+DISPLAY=localhost:13.0
+SHLVL=2
+PAGER=less
+MAKELEVEL=1
+XDG_SESSION_ID=3505
+PATTERN=P1
+LM_LICENSE_FILE=1717@lstc:1717@lstn:1717@lshc:26585@lshc:26585@lstc:26585@lstn:5280@lstn:5280@lshc:5280@lstc
+LD_LIBRARY_PATH=/usr/cad/cadence/INNOVUS/cur/tools/lib:/home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/lib:/usr/cad/cadence/INCISIV/cur/tools/lib/64bit:/usr/cad/cadence/INCISIV/cur/tools/lib:
+XDG_RUNTIME_DIR=/run/user/1000092
+SSH_CLIENT=192.168.102.11 5729 22
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+MGC_HOME=/home/nfs_cad/mentor/calibre/cur
+PATH=/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/usr/cad/cadence/INCISIV/cur/tools/bin/64bit:/opt/RISCV/bin:/home/nfs_cad/mentor/calibre/cur/bin:/home/nfs_cad/synopsys/laker/cur/bin:/usr/cad/cadence/JASPER/cur/bin:/usr/cad/cadence/INNOVUS/cur/tools/celtic/bin:/usr/cad/cadence/INNOVUS/cur/tools/plato/bin:/usr/cad/cadence/INNOVUS/cur/tools/dfII:/usr/cad/cadence/INNOVUS/cur/tools/bin:/usr/cad/cadence/INNOVUS/cur/tools/tlfUtil/bin:/home/nfs_cad/synopsys/icc/cur/amd64/syn/bin:/home/nfs_cad/synopsys/synthesis/cur/amd64/syn/bin:/home/nfs_cad/synopsys/cosmos_scope/cur/ai_bin:/usr/cad/synopsys/primetime/cur/linux64/syn/bin:/home/nfs_cad/synopsys/verdi/cur/bin:/home/nfs_cad/synopsys/verdi/cur/nLint/bin:/usr/cad/cadence/INCISIV/cur/tools/dfII/bin:/usr/cad/cadence/INCISIV/cur/tools/vtools/vfault/bin:/usr/cad/cadence/INCISIV/cur/tools/bin:/home/nfs_cad/mentor/modelsim/10.2/modeltech/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000092/bus
+SSH_TTY=/dev/pts/3
+OLDPWD=/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine
+_=/usr/cad/cadence/INCISIV/cur/tools/bin/ncverilog
+_IRUNROOT_=/usr/cad/cadence/INCISIV/cur/tools
+CDS_ARCH=lnx86
+NCRUNMODE=ncverilog:./INCA_libs/irun.lnx8664.15.20.nc
+IRUNBATCH=FALSE
+IMPERAS_PORT_FILE=.vsp_ovp_gdb_port
+TCL_LIBRARY=/usr/cad/cadence/INCISIV/cur/tools/inca/files/tcl/library
+Runtime command line arguments:
+argv[0]=ncverilog
+argv[1]=/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/sim/tb.sv
+argv[2]=/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/src/JAM.v
+argv[3]=+incdir+/home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/src
+argv[4]=+nc64bit
+argv[5]=+access+r
+argv[6]=+define+P1
+argv[7]=+define+FSDB_FILE="JAM.fsdb"
+85 profile - 100
+          CPU/Mem usage: 0.050 sys,  0.040 user,  89.95M sys,  0.00M vm
+86 VC callback profile - scalar:0 vector:0
+87 Tue Mar 26 20:33:19 2024
+88 pliAppInit
+89 FSDB_GATE is disabled.
+90 Enable Parallel Dumping.
+91 pliAppMiscSet: New Sim Round
+92 pliEntryInit
+93 LIBSSCORE=found /home/nfs_cad/synopsys/verdi/cur/share/PLI/IUS/linux64/libsscore_ius152.so through $LD_LIBRARY_PATH setting.
+94 argv[0]: JAM.fsdb
+95 FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux x86_64/64bit, 02/09/2020
+96 (C) 1996 - 2020 by Synopsys, Inc.
+97 sps_call_fsdbDumpfile at 0 : /home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/sim/tb.sv(50)
+98 argv[0]: JAM.fsdb
+99 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+100 *Verdi* : Create FSDB file 'JAM.fsdb'
+101 sps_call_fsdbDumpvars at 0 : /home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/sim/tb.sv(51)
+102 *Verdi* : Begin traversing the scopes, layer (0).
+103 *Verdi* : End of traversing.
+104 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.050 user,  177.54M sys,  0.00M vm
+                   incr: 0.000 sys,  0.010 user,  4.20M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  4.20M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.010 user,  4.20M sys,  0.00M vm
+
+          Count usage: 53 var,  53 idcode,  53 callback
+                 incr: 53 var,  53 idcode,  53 callback
+                 accu: 53 var,  53 idcode,  53 callback
+            accu incr: 53 var,  53 idcode,  53 callback
+105 VC callback profile - scalar:0 vector:0
+106 Tue Mar 26 20:33:19 2024
+107 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.060 sys,  0.050 user,  178.59M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.010 user,  5.26M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 53 var,  53 idcode,  53 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 53 var,  53 idcode,  53 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+108 VC callback profile - scalar:11 vector:42
+109 Tue Mar 26 20:33:19 2024
+110 sps_call_fsdbDumpMDA at 0 : /home/YanYouChen/2024icsontestpratice/110_Job_Assignment_Machine/sim/tb.sv(52)
+111 *Verdi* : Begin traversing the MDAs, layer (0).
+112 *Verdi* : Enable +mda and +packedmda dumping.
+113 *Verdi* : End of traversing the MDAs.
+114 fsdbDumpMDA traverse var: profile - 
+          CPU/Mem usage: 0.060 sys,  0.050 user,  178.59M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 125 var,  125 idcode,  125 callback
+                 incr: 72 var,  72 idcode,  72 callback
+                 accu: 72 var,  72 idcode,  72 callback
+            accu incr: 72 var,  72 idcode,  72 callback
+115 VC callback profile - scalar:11 vector:42
+116 Tue Mar 26 20:33:19 2024
+117 fsdbDumpMDA: profile - 
+          CPU/Mem usage: 0.060 sys,  0.050 user,  178.59M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  0.00M sys,  0.00M vm
+
+          Count usage: 125 var,  125 idcode,  125 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 72 var,  72 idcode,  72 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+118 VC callback profile - scalar:11 vector:114
+119 Tue Mar 26 20:33:19 2024
+120 End of simulation at 1198237500
+121 VC callback profile - scalar:5518732 vector:6527277
+122 Tue Mar 26 20:33:20 2024
+123 Begin FSDB profile info:
+124 FSDB Writer : bc1(5518732) bcn(6527277) mtf/stf(0/1)
+FSDB Writer elapsed time : flush(0.626508) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+125 End FSDB profile info
+126 Parallel profile    -  Flush:4 Expand:0 ProduceWait:0 ConsumerWait:69 BlockUsed:103
+127                        ProduceTime:1.406749178 ConsumerTime:1.372847485 Buffer:64MB
+128 SimExit
+129 Sim process exit

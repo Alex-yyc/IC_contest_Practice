@@ -1,0 +1,3132 @@
+ncverilog(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Mar 21, 2024 at 13:38:57 CST
+ncverilog
+	/home/YanYouChen/2024icsontestpratice/109_GeoFence/sim/tb.sv
+	/home/YanYouChen/2024icsontestpratice/109_GeoFence/syn/geofence_syn.v
+	-sv
+	/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v
+	+nc64bit
+	+access+r
+	+define+FSDB_FILE="geofence.fsdb"
+	+define+SDF
+	+define+SDFFILE="/home/YanYouChen/2024icsontestpratice/109_GeoFence/syn/geofence_syn.sdf"
+file: /home/YanYouChen/2024icsontestpratice/109_GeoFence/sim/tb.sv
+`define SDFFILE    "./geofence_syn.sdf"
+                                       |
+ncvlog: *W,MACNDF (/home/YanYouChen/2024icsontestpratice/109_GeoFence/sim/tb.sv,3|39): The text macro 'SDFFILE' has also been defined on the command line using the -DEFINE command line option.  The compiler will ignore the definition found in the Verilog source code.
+	module worklib.testfixture:sv
+		errors: 0, warnings: 0
+file: /home/YanYouChen/2024icsontestpratice/109_GeoFence/syn/geofence_syn.v
+	module worklib.geofence:v
+		errors: 0, warnings: 0
+file: /usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v
+	module worklib.BUFX2:v
+		errors: 0, warnings: 0
+	module worklib.BUFX3:v
+		errors: 0, warnings: 0
+	module worklib.BUFX4:v
+		errors: 0, warnings: 0
+	module worklib.BUFX6:v
+		errors: 0, warnings: 0
+	module worklib.BUFX8:v
+		errors: 0, warnings: 0
+	module worklib.BUFX12:v
+		errors: 0, warnings: 0
+	module worklib.BUFX16:v
+		errors: 0, warnings: 0
+	module worklib.BUFX20:v
+		errors: 0, warnings: 0
+	module worklib.INVXL:v
+		errors: 0, warnings: 0
+	module worklib.INVX1:v
+		errors: 0, warnings: 0
+	module worklib.INVX2:v
+		errors: 0, warnings: 0
+	module worklib.INVX3:v
+		errors: 0, warnings: 0
+	module worklib.INVX4:v
+		errors: 0, warnings: 0
+	module worklib.INVX6:v
+		errors: 0, warnings: 0
+	module worklib.INVX8:v
+		errors: 0, warnings: 0
+	module worklib.INVX12:v
+		errors: 0, warnings: 0
+	module worklib.INVX16:v
+		errors: 0, warnings: 0
+	module worklib.INVX20:v
+		errors: 0, warnings: 0
+	module worklib.TBUFXL:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX1:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX2:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX3:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX4:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX6:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX8:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX12:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX16:v
+		errors: 0, warnings: 0
+	module worklib.TBUFX20:v
+		errors: 0, warnings: 0
+	module worklib.HOLDX1:v
+		errors: 0, warnings: 0
+	module worklib.AND2XL:v
+		errors: 0, warnings: 0
+	module worklib.AND2X1:v
+		errors: 0, warnings: 0
+	module worklib.AND2X2:v
+		errors: 0, warnings: 0
+	module worklib.AND2X4:v
+		errors: 0, warnings: 0
+	module worklib.AND2X6:v
+		errors: 0, warnings: 0
+	module worklib.AND2X8:v
+		errors: 0, warnings: 0
+	module worklib.AND3XL:v
+		errors: 0, warnings: 0
+	module worklib.AND3X1:v
+		errors: 0, warnings: 0
+	module worklib.AND3X2:v
+		errors: 0, warnings: 0
+	module worklib.AND3X4:v
+		errors: 0, warnings: 0
+	module worklib.AND3X6:v
+		errors: 0, warnings: 0
+	module worklib.AND3X8:v
+		errors: 0, warnings: 0
+	module worklib.AND4XL:v
+		errors: 0, warnings: 0
+	module worklib.AND4X1:v
+		errors: 0, warnings: 0
+	module worklib.AND4X2:v
+		errors: 0, warnings: 0
+	module worklib.AND4X4:v
+		errors: 0, warnings: 0
+	module worklib.AND4X6:v
+		errors: 0, warnings: 0
+	module worklib.AND4X8:v
+		errors: 0, warnings: 0
+	module worklib.AOI21XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI21X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI21X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI21X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI211XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI211X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI211X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI211X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI22XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI22X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI22X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI22X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI221XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI221X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI221X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI221X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI222XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI222X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI222X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI222X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI31XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI31X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI31X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI31X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI32XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI32X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI32X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI32X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI33XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI33X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI33X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI33X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB1XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB1X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB1X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB1X4:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB2XL:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB2X1:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB2X2:v
+		errors: 0, warnings: 0
+	module worklib.AOI2BB2X4:v
+		errors: 0, warnings: 0
+	module worklib.AO21XL:v
+		errors: 0, warnings: 0
+	module worklib.AO21X1:v
+		errors: 0, warnings: 0
+	module worklib.AO21X2:v
+		errors: 0, warnings: 0
+	module worklib.AO21X4:v
+		errors: 0, warnings: 0
+	module worklib.AO22XL:v
+		errors: 0, warnings: 0
+	module worklib.AO22X1:v
+		errors: 0, warnings: 0
+	module worklib.AO22X2:v
+		errors: 0, warnings: 0
+	module worklib.AO22X4:v
+		errors: 0, warnings: 0
+	module worklib.MX2XL:v
+		errors: 0, warnings: 0
+	module worklib.MX2X1:v
+		errors: 0, warnings: 0
+	module worklib.MX2X2:v
+		errors: 0, warnings: 0
+	module worklib.MX2X4:v
+		errors: 0, warnings: 0
+	module worklib.MX2X6:v
+		errors: 0, warnings: 0
+	module worklib.MX2X8:v
+		errors: 0, warnings: 0
+	module worklib.MX4XL:v
+		errors: 0, warnings: 0
+	module worklib.MX4X1:v
+		errors: 0, warnings: 0
+	module worklib.MX4X2:v
+		errors: 0, warnings: 0
+	module worklib.MX4X4:v
+		errors: 0, warnings: 0
+	module worklib.MXI2XL:v
+		errors: 0, warnings: 0
+	module worklib.MXI2X1:v
+		errors: 0, warnings: 0
+	module worklib.MXI2X2:v
+		errors: 0, warnings: 0
+	module worklib.MXI2X4:v
+		errors: 0, warnings: 0
+	module worklib.MXI2X6:v
+		errors: 0, warnings: 0
+	module worklib.MXI2X8:v
+		errors: 0, warnings: 0
+	module worklib.MXI4XL:v
+		errors: 0, warnings: 0
+	module worklib.MXI4X1:v
+		errors: 0, warnings: 0
+	module worklib.MXI4X2:v
+		errors: 0, warnings: 0
+	module worklib.MXI4X4:v
+		errors: 0, warnings: 0
+	module worklib.MX3XL:v
+		errors: 0, warnings: 0
+	module worklib.MX3X1:v
+		errors: 0, warnings: 0
+	module worklib.MX3X2:v
+		errors: 0, warnings: 0
+	module worklib.MX3X4:v
+		errors: 0, warnings: 0
+	module worklib.MXI3XL:v
+		errors: 0, warnings: 0
+	module worklib.MXI3X1:v
+		errors: 0, warnings: 0
+	module worklib.MXI3X2:v
+		errors: 0, warnings: 0
+	module worklib.MXI3X4:v
+		errors: 0, warnings: 0
+	module worklib.NAND2XL:v
+		errors: 0, warnings: 0
+	module worklib.NAND2X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND2X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND2X4:v
+		errors: 0, warnings: 0
+	module worklib.NAND2X6:v
+		errors: 0, warnings: 0
+	module worklib.NAND2X8:v
+		errors: 0, warnings: 0
+	module worklib.NAND3XL:v
+		errors: 0, warnings: 0
+	module worklib.NAND3X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND3X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND3X4:v
+		errors: 0, warnings: 0
+	module worklib.NAND3X6:v
+		errors: 0, warnings: 0
+	module worklib.NAND3X8:v
+		errors: 0, warnings: 0
+	module worklib.NAND4XL:v
+		errors: 0, warnings: 0
+	module worklib.NAND4X1:v
+		errors: 0, warnings: 0
+	module worklib.NAND4X2:v
+		errors: 0, warnings: 0
+	module worklib.NAND4X4:v
+		errors: 0, warnings: 0
+	module worklib.NAND4X6:v
+		errors: 0, warnings: 0
+	module worklib.NAND4X8:v
+		errors: 0, warnings: 0
+	module worklib.NAND2BXL:v
+		errors: 0, warnings: 0
+	module worklib.NAND2BX1:v
+		errors: 0, warnings: 0
+	module worklib.NAND2BX2:v
+		errors: 0, warnings: 0
+	module worklib.NAND2BX4:v
+		errors: 0, warnings: 0
+	module worklib.NAND3BXL:v
+		errors: 0, warnings: 0
+	module worklib.NAND3BX1:v
+		errors: 0, warnings: 0
+	module worklib.NAND3BX2:v
+		errors: 0, warnings: 0
+	module worklib.NAND3BX4:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BXL:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BX1:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BX2:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BX4:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BBXL:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BBX1:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BBX2:v
+		errors: 0, warnings: 0
+	module worklib.NAND4BBX4:v
+		errors: 0, warnings: 0
+	module worklib.NOR2XL:v
+		errors: 0, warnings: 0
+	module worklib.NOR2X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR2X2:v
+		errors: 0, warnings: 0
+	module worklib.NOR2X4:v
+		errors: 0, warnings: 0
+	module worklib.NOR2X6:v
+		errors: 0, warnings: 0
+	module worklib.NOR2X8:v
+		errors: 0, warnings: 0
+	module worklib.NOR3XL:v
+		errors: 0, warnings: 0
+	module worklib.NOR3X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR3X2:v
+		errors: 0, warnings: 0
+	module worklib.NOR3X4:v
+		errors: 0, warnings: 0
+	module worklib.NOR3X6:v
+		errors: 0, warnings: 0
+	module worklib.NOR3X8:v
+		errors: 0, warnings: 0
+	module worklib.NOR4XL:v
+		errors: 0, warnings: 0
+	module worklib.NOR4X1:v
+		errors: 0, warnings: 0
+	module worklib.NOR4X2:v
+		errors: 0, warnings: 0
+	module worklib.NOR4X4:v
+		errors: 0, warnings: 0
+	module worklib.NOR4X6:v
+		errors: 0, warnings: 0
+	module worklib.NOR4X8:v
+		errors: 0, warnings: 0
+	module worklib.NOR2BXL:v
+		errors: 0, warnings: 0
+	module worklib.NOR2BX1:v
+		errors: 0, warnings: 0
+	module worklib.NOR2BX2:v
+		errors: 0, warnings: 0
+	module worklib.NOR2BX4:v
+		errors: 0, warnings: 0
+	module worklib.NOR3BXL:v
+		errors: 0, warnings: 0
+	module worklib.NOR3BX1:v
+		errors: 0, warnings: 0
+	module worklib.NOR3BX2:v
+		errors: 0, warnings: 0
+	module worklib.NOR3BX4:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BXL:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BX1:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BX2:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BX4:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BBXL:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BBX1:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BBX2:v
+		errors: 0, warnings: 0
+	module worklib.NOR4BBX4:v
+		errors: 0, warnings: 0
+	module worklib.OR2XL:v
+		errors: 0, warnings: 0
+	module worklib.OR2X1:v
+		errors: 0, warnings: 0
+	module worklib.OR2X2:v
+		errors: 0, warnings: 0
+	module worklib.OR2X4:v
+		errors: 0, warnings: 0
+	module worklib.OR2X6:v
+		errors: 0, warnings: 0
+	module worklib.OR2X8:v
+		errors: 0, warnings: 0
+	module worklib.OR3XL:v
+		errors: 0, warnings: 0
+	module worklib.OR3X1:v
+		errors: 0, warnings: 0
+	module worklib.OR3X2:v
+		errors: 0, warnings: 0
+	module worklib.OR3X4:v
+		errors: 0, warnings: 0
+	module worklib.OR3X6:v
+		errors: 0, warnings: 0
+	module worklib.OR3X8:v
+		errors: 0, warnings: 0
+	module worklib.OR4XL:v
+		errors: 0, warnings: 0
+	module worklib.OR4X1:v
+		errors: 0, warnings: 0
+	module worklib.OR4X2:v
+		errors: 0, warnings: 0
+	module worklib.OR4X4:v
+		errors: 0, warnings: 0
+	module worklib.OR4X6:v
+		errors: 0, warnings: 0
+	module worklib.OR4X8:v
+		errors: 0, warnings: 0
+	module worklib.OAI21XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI21X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI21X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI21X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI211XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI211X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI211X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI211X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI22XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI22X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI22X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI22X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI221XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI221X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI221X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI221X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI222XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI222X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI222X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI222X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI31XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI31X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI31X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI31X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI32XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI32X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI32X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI32X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI33XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI33X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI33X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI33X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB1XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB1X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB1X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB1X4:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB2XL:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB2X1:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB2X2:v
+		errors: 0, warnings: 0
+	module worklib.OAI2BB2X4:v
+		errors: 0, warnings: 0
+	module worklib.OA21XL:v
+		errors: 0, warnings: 0
+	module worklib.OA21X1:v
+		errors: 0, warnings: 0
+	module worklib.OA21X2:v
+		errors: 0, warnings: 0
+	module worklib.OA21X4:v
+		errors: 0, warnings: 0
+	module worklib.OA22XL:v
+		errors: 0, warnings: 0
+	module worklib.OA22X1:v
+		errors: 0, warnings: 0
+	module worklib.OA22X2:v
+		errors: 0, warnings: 0
+	module worklib.OA22X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKXOR2X1:v
+		errors: 0, warnings: 0
+	module worklib.CLKXOR2X2:v
+		errors: 0, warnings: 0
+	module worklib.CLKXOR2X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKXOR2X8:v
+		errors: 0, warnings: 0
+	module worklib.XOR2XL:v
+		errors: 0, warnings: 0
+	module worklib.XOR2X1:v
+		errors: 0, warnings: 0
+	module worklib.XOR2X2:v
+		errors: 0, warnings: 0
+	module worklib.XOR2X4:v
+		errors: 0, warnings: 0
+	module worklib.XOR3XL:v
+		errors: 0, warnings: 0
+	module worklib.XOR3X1:v
+		errors: 0, warnings: 0
+	module worklib.XOR3X2:v
+		errors: 0, warnings: 0
+	module worklib.XOR3X4:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2XL:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2X1:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2X2:v
+		errors: 0, warnings: 0
+	module worklib.XNOR2X4:v
+		errors: 0, warnings: 0
+	module worklib.XNOR3XL:v
+		errors: 0, warnings: 0
+	module worklib.XNOR3X1:v
+		errors: 0, warnings: 0
+	module worklib.XNOR3X2:v
+		errors: 0, warnings: 0
+	module worklib.XNOR3X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX2:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX3:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX4:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX6:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX8:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX12:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX16:v
+		errors: 0, warnings: 0
+	module worklib.CLKBUFX20:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX1:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX2:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX3:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX4:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX6:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX8:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX12:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX16:v
+		errors: 0, warnings: 0
+	module worklib.CLKINVX20:v
+		errors: 0, warnings: 0
+	module worklib.CLKAND2X2:v
+		errors: 0, warnings: 0
+	module worklib.CLKAND2X3:v
+		errors: 0, warnings: 0
+	module worklib.CLKAND2X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKAND2X6:v
+		errors: 0, warnings: 0
+	module worklib.CLKAND2X8:v
+		errors: 0, warnings: 0
+	module worklib.CLKAND2X12:v
+		errors: 0, warnings: 0
+	module worklib.CLKMX2X2:v
+		errors: 0, warnings: 0
+	module worklib.CLKMX2X3:v
+		errors: 0, warnings: 0
+	module worklib.CLKMX2X4:v
+		errors: 0, warnings: 0
+	module worklib.CLKMX2X6:v
+		errors: 0, warnings: 0
+	module worklib.CLKMX2X8:v
+		errors: 0, warnings: 0
+	module worklib.CLKMX2X12:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX2:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX3:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX4:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX6:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX8:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX12:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX16:v
+		errors: 0, warnings: 0
+	module worklib.TLATNCAX20:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX2:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX3:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX4:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX6:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX8:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX12:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX16:v
+		errors: 0, warnings: 0
+	module worklib.TLATNTSCAX20:v
+		errors: 0, warnings: 0
+	module worklib.ADDHXL:v
+		errors: 0, warnings: 0
+	module worklib.ADDHX1:v
+		errors: 0, warnings: 0
+	module worklib.ADDHX2:v
+		errors: 0, warnings: 0
+	module worklib.ADDHX4:v
+		errors: 0, warnings: 0
+	module worklib.ADDFXL:v
+		errors: 0, warnings: 0
+	module worklib.ADDFX1:v
+		errors: 0, warnings: 0
+	module worklib.ADDFX2:v
+		errors: 0, warnings: 0
+	module worklib.ADDFX4:v
+		errors: 0, warnings: 0
+	module worklib.ADDFHXL:v
+		errors: 0, warnings: 0
+	module worklib.ADDFHX1:v
+		errors: 0, warnings: 0
+	module worklib.ADDFHX2:v
+		errors: 0, warnings: 0
+	module worklib.ADDFHX4:v
+		errors: 0, warnings: 0
+	module worklib.BENCX1:v
+		errors: 0, warnings: 0
+	module worklib.BENCX2:v
+		errors: 0, warnings: 0
+	module worklib.BENCX4:v
+		errors: 0, warnings: 0
+	module worklib.BMXX2:v
+		errors: 0, warnings: 0
+	module worklib.BMXX4:v
+		errors: 0, warnings: 0
+	module worklib.BMXIX2:v
+		errors: 0, warnings: 0
+	module worklib.BMXIX4:v
+		errors: 0, warnings: 0
+	module worklib.CMPR22X2:v
+		errors: 0, warnings: 0
+	module worklib.CMPR22X4:v
+		errors: 0, warnings: 0
+	module worklib.CMPR32X2:v
+		errors: 0, warnings: 0
+	module worklib.CMPR32X4:v
+		errors: 0, warnings: 0
+	module worklib.AFHCINX2:v
+		errors: 0, warnings: 0
+	module worklib.AFHCINX4:v
+		errors: 0, warnings: 0
+	module worklib.AFHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.AFHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.ACHCINX2:v
+		errors: 0, warnings: 0
+	module worklib.ACHCINX4:v
+		errors: 0, warnings: 0
+	module worklib.ACHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.ACHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.AHHCINX2:v
+		errors: 0, warnings: 0
+	module worklib.AHHCINX4:v
+		errors: 0, warnings: 0
+	module worklib.AHHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.AHHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.AFCSHCINX2:v
+		errors: 0, warnings: 0
+	module worklib.AFCSHCINX4:v
+		errors: 0, warnings: 0
+	module worklib.AFCSHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.AFCSHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.AFCSIHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.AFCSIHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.ACCSHCINX2:v
+		errors: 0, warnings: 0
+	module worklib.ACCSHCINX4:v
+		errors: 0, warnings: 0
+	module worklib.ACCSHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.ACCSHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.ACCSIHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.ACCSIHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.AHCSHCINX2:v
+		errors: 0, warnings: 0
+	module worklib.AHCSHCINX4:v
+		errors: 0, warnings: 0
+	module worklib.AHCSHCONX2:v
+		errors: 0, warnings: 0
+	module worklib.AHCSHCONX4:v
+		errors: 0, warnings: 0
+	module worklib.CMPR42X1:v
+		errors: 0, warnings: 0
+	module worklib.CMPR42X2:v
+		errors: 0, warnings: 0
+	module worklib.CMPR42X4:v
+		errors: 0, warnings: 0
+	module worklib.DFFXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFQX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFQX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFQX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFQXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFRXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFRX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFRX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFRX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFSXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFSX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFSX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFSX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFNSRXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFNSRX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFNSRX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFNSRX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFTRXL:v
+		errors: 0, warnings: 0
+	module worklib.DFFTRX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFTRX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFTRX4:v
+		errors: 0, warnings: 0
+	module worklib.EDFFXL:v
+		errors: 0, warnings: 0
+	module worklib.EDFFX1:v
+		errors: 0, warnings: 0
+	module worklib.EDFFX2:v
+		errors: 0, warnings: 0
+	module worklib.EDFFX4:v
+		errors: 0, warnings: 0
+	module worklib.EDFFTRXL:v
+		errors: 0, warnings: 0
+	module worklib.EDFFTRX1:v
+		errors: 0, warnings: 0
+	module worklib.EDFFTRX2:v
+		errors: 0, warnings: 0
+	module worklib.EDFFTRX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFQX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFQX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFQX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFQXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFNSRXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFNSRX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFNSRX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFNSRX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFTRXL:v
+		errors: 0, warnings: 0
+	module worklib.SDFFTRX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFTRX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFTRX4:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFXL:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFX1:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFX2:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFX4:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFTRXL:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFTRX1:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFTRX2:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFTRX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFHQX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFHQX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFHQX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFHQX8:v
+		errors: 0, warnings: 0
+	module worklib.DFFRHQX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFRHQX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFRHQX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFRHQX8:v
+		errors: 0, warnings: 0
+	module worklib.DFFSHQX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFSHQX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFSHQX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFSHQX8:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRHQX1:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRHQX2:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRHQX4:v
+		errors: 0, warnings: 0
+	module worklib.DFFSRHQX8:v
+		errors: 0, warnings: 0
+	module worklib.EDFFHQX1:v
+		errors: 0, warnings: 0
+	module worklib.EDFFHQX2:v
+		errors: 0, warnings: 0
+	module worklib.EDFFHQX4:v
+		errors: 0, warnings: 0
+	module worklib.EDFFHQX8:v
+		errors: 0, warnings: 0
+	module worklib.MDFFHQX1:v
+		errors: 0, warnings: 0
+	module worklib.MDFFHQX2:v
+		errors: 0, warnings: 0
+	module worklib.MDFFHQX4:v
+		errors: 0, warnings: 0
+	module worklib.MDFFHQX8:v
+		errors: 0, warnings: 0
+	module worklib.SDFFHQX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFHQX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFHQX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFHQX8:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRHQX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRHQX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRHQX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFRHQX8:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSHQX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSHQX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSHQX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSHQX8:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRHQX1:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRHQX2:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRHQX4:v
+		errors: 0, warnings: 0
+	module worklib.SDFFSRHQX8:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFHQX1:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFHQX2:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFHQX4:v
+		errors: 0, warnings: 0
+	module worklib.SEDFFHQX8:v
+		errors: 0, warnings: 0
+	module worklib.SMDFFHQX1:v
+		errors: 0, warnings: 0
+	module worklib.SMDFFHQX2:v
+		errors: 0, warnings: 0
+	module worklib.SMDFFHQX4:v
+		errors: 0, warnings: 0
+	module worklib.SMDFFHQX8:v
+		errors: 0, warnings: 0
+	module worklib.TLATXL:v
+		errors: 0, warnings: 0
+	module worklib.TLATX1:v
+		errors: 0, warnings: 0
+	module worklib.TLATX2:v
+		errors: 0, warnings: 0
+	module worklib.TLATX4:v
+		errors: 0, warnings: 0
+	module worklib.TLATSRXL:v
+		errors: 0, warnings: 0
+	module worklib.TLATSRX1:v
+		errors: 0, warnings: 0
+	module worklib.TLATSRX2:v
+		errors: 0, warnings: 0
+	module worklib.TLATSRX4:v
+		errors: 0, warnings: 0
+	module worklib.TLATNXL:v
+		errors: 0, warnings: 0
+	module worklib.TLATNX1:v
+		errors: 0, warnings: 0
+	module worklib.TLATNX2:v
+		errors: 0, warnings: 0
+	module worklib.TLATNX4:v
+		errors: 0, warnings: 0
+	module worklib.TLATNSRXL:v
+		errors: 0, warnings: 0
+	module worklib.TLATNSRX1:v
+		errors: 0, warnings: 0
+	module worklib.TLATNSRX2:v
+		errors: 0, warnings: 0
+	module worklib.TLATNSRX4:v
+		errors: 0, warnings: 0
+	module worklib.RF1R1WX1:v
+		errors: 0, warnings: 0
+	module worklib.RF2R1WX1:v
+		errors: 0, warnings: 0
+	module worklib.RFRDX1:v
+		errors: 0, warnings: 0
+	module worklib.RFRDX2:v
+		errors: 0, warnings: 0
+	module worklib.RFRDX4:v
+		errors: 0, warnings: 0
+	module worklib.DLY1X1:v
+		errors: 0, warnings: 0
+	module worklib.DLY2X1:v
+		errors: 0, warnings: 0
+	module worklib.DLY3X1:v
+		errors: 0, warnings: 0
+	module worklib.DLY4X1:v
+		errors: 0, warnings: 0
+	module worklib.DLY1X4:v
+		errors: 0, warnings: 0
+	module worklib.DLY2X4:v
+		errors: 0, warnings: 0
+	module worklib.DLY3X4:v
+		errors: 0, warnings: 0
+	module worklib.DLY4X4:v
+		errors: 0, warnings: 0
+	module worklib.TIEHI:v
+		errors: 0, warnings: 0
+	module worklib.TIELO:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_sedff:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_edfft:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_mux:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_sedfft:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_mux2:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_tlatrf:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_mux4:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_outrf:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_dff:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_tlat:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_edff:v
+		errors: 0, warnings: 0
+	primitive worklib.udp_bmx:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX1 \triarea_reg[2]  ( .D(n1613), .CK(clk), .RN(n7634), .Q(triarea[2]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1728|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \triarea_reg[4]  ( .D(n1611), .CK(clk), .RN(n7634), .Q(triarea[4]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1731|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \triarea_reg[6]  ( .D(n1609), .CK(clk), .RN(n7632), .Q(triarea[6]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1734|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \triarea_reg[8]  ( .D(n1607), .CK(clk), .RN(n7632), .Q(triarea[8]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1735|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \triarea_reg[11]  ( .D(n1604), .CK(clk), .RN(n7652), .Q(triarea[11])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1736|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \vector_x_reg[1][1]  ( .D(n1791), .CK(clk), .RN(n7635), .Q(
+                            |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1786|28): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \vector_x_reg[2][1]  ( .D(n1813), .CK(clk), .RN(n7649), .Q(
+                            |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1788|28): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][0]  ( .D(n1461), .CK(clk), .RN(n7641), .Q(\S[4][0] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1880|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][1]  ( .D(n1460), .CK(clk), .RN(n7652), .Q(\S[4][1] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1881|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][2]  ( .D(n1459), .CK(clk), .RN(n7636), .Q(\S[4][2] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1882|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][3]  ( .D(n1458), .CK(clk), .RN(n7632), .Q(\S[4][3] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1883|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][4]  ( .D(n1457), .CK(clk), .RN(n7662), .Q(\S[4][4] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1884|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][5]  ( .D(n1456), .CK(clk), .RN(n7662), .Q(\S[4][5] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1885|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][6]  ( .D(n1455), .CK(clk), .RN(n7632), .Q(\S[4][6] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1886|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][7]  ( .D(n1454), .CK(clk), .RN(n7632), .Q(\S[4][7] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1887|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][8]  ( .D(n1453), .CK(clk), .RN(n7632), .Q(\S[4][8] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1888|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][9]  ( .D(n1452), .CK(clk), .RN(n7632), .Q(\S[4][9] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1889|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[4][10]  ( .D(n1451), .CK(clk), .RN(n7635), .Q(\S[4][10] ) );
+                      |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1890|22): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][0]  ( .D(n1439), .CK(clk), .RN(n7639), .Q(\S[3][0] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1891|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][1]  ( .D(n1438), .CK(clk), .RN(n7656), .Q(\S[3][1] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1892|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][2]  ( .D(n1437), .CK(clk), .RN(n7642), .Q(\S[3][2] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1893|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][3]  ( .D(n1436), .CK(clk), .RN(n7647), .Q(\S[3][3] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1894|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][4]  ( .D(n1435), .CK(clk), .RN(n7637), .Q(\S[3][4] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1895|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][5]  ( .D(n1434), .CK(clk), .RN(n7637), .Q(\S[3][5] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1896|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][6]  ( .D(n1433), .CK(clk), .RN(n7637), .Q(\S[3][6] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1897|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][7]  ( .D(n1432), .CK(clk), .RN(n7637), .Q(\S[3][7] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1898|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][8]  ( .D(n1431), .CK(clk), .RN(n7637), .Q(\S[3][8] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1899|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][9]  ( .D(n1430), .CK(clk), .RN(n7637), .Q(\S[3][9] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1900|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[3][10]  ( .D(n1429), .CK(clk), .RN(n7637), .Q(\S[3][10] ) );
+                      |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1901|22): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][1]  ( .D(n1416), .CK(clk), .RN(n7637), .Q(\S[2][1] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1904|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][5]  ( .D(n1412), .CK(clk), .RN(n7638), .Q(\S[2][5] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1911|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][6]  ( .D(n1411), .CK(clk), .RN(n7638), .Q(\S[2][6] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1912|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][7]  ( .D(n1410), .CK(clk), .RN(n7638), .Q(\S[2][7] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1913|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][8]  ( .D(n1409), .CK(clk), .RN(n7638), .Q(\S[2][8] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1914|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][9]  ( .D(n1408), .CK(clk), .RN(n7638), .Q(\S[2][9] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1915|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[2][10]  ( .D(n1407), .CK(clk), .RN(n7638), .Q(\S[2][10] ) );
+                      |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1916|22): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[0][0]  ( .D(n1395), .CK(clk), .RN(n7644), .Q(\S[0][0] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1917|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[0][1]  ( .D(n1394), .CK(clk), .RN(n7653), .QN(n1888) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1918|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \S_reg[0][2]  ( .D(n1393), .CK(clk), .RN(n7638), .Q(\S[0][2] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1919|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[0][3]  ( .D(n1392), .CK(clk), .RN(n7653), .Q(\S[0][3] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1920|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[0][4]  ( .D(n1391), .CK(clk), .RN(n7653), .Q(\S[0][4] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1921|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[1][0]  ( .D(n1384), .CK(clk), .RN(n7639), .Q(\S[1][0] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1934|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[1][2]  ( .D(n1382), .CK(clk), .RN(n7653), .Q(\S[1][2] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1937|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[1][3]  ( .D(n1381), .CK(clk), .RN(n7639), .Q(\S[1][3] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1938|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[1][4]  ( .D(n1380), .CK(clk), .RN(n7639), .Q(\S[1][4] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1939|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[1][5]  ( .D(n1379), .CK(clk), .RN(n7654), .QN(n1893) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1940|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \S_reg[1][9]  ( .D(n1375), .CK(clk), .RN(n7656), .Q(\S[1][9] ) );
+                     |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1947|21): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \S_reg[1][10]  ( .D(n1374), .CK(clk), .RN(n7656), .Q(\S[1][10] ) );
+                      |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1948|22): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][0]  ( .D(n1825), .CK(clk), .RN(n7653), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1949|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][1]  ( .D(n1824), .CK(clk), .RN(n7643), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1951|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][2]  ( .D(n1823), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1953|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][3]  ( .D(n1822), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1955|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][4]  ( .D(n1821), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1957|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][5]  ( .D(n1820), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1959|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][6]  ( .D(n1819), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1961|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][7]  ( .D(n1818), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1963|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][8]  ( .D(n1817), .CK(clk), .RN(n7645), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1965|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[3][10]  ( .D(n1815), .CK(clk), .RN(n7645), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1969|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][0]  ( .D(n1803), .CK(clk), .RN(n7659), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1971|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][1]  ( .D(n1802), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1973|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][2]  ( .D(n1801), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1975|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][3]  ( .D(n1800), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1977|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][4]  ( .D(n1799), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1979|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][5]  ( .D(n1798), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1981|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][6]  ( .D(n1797), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1983|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][7]  ( .D(n1796), .CK(clk), .RN(n7661), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1985|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][8]  ( .D(n1795), .CK(clk), .RN(n7661), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1987|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[2][10]  ( .D(n1793), .CK(clk), .RN(n7650), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1991|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][0]  ( .D(n1781), .CK(clk), .RN(n7658), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1993|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][1]  ( .D(n1780), .CK(clk), .RN(n7654), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1995|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][2]  ( .D(n1779), .CK(clk), .RN(n7646), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1997|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][3]  ( .D(n1778), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,1999|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][4]  ( .D(n1777), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2001|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][5]  ( .D(n1776), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2003|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][6]  ( .D(n1775), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2005|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][7]  ( .D(n1774), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2007|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][8]  ( .D(n1773), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2009|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[1][10]  ( .D(n1771), .CK(clk), .RN(n7645), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2013|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][0]  ( .D(n1760), .CK(clk), .RN(n7659), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2015|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][1]  ( .D(n1759), .CK(clk), .RN(n7659), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2017|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][2]  ( .D(n1758), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2019|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][3]  ( .D(n1757), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2021|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][4]  ( .D(n1756), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2023|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][5]  ( .D(n1755), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2025|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][6]  ( .D(n1754), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2027|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][7]  ( .D(n1753), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2029|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][8]  ( .D(n1752), .CK(clk), .RN(n7661), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2031|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_x_reg[0][10]  ( .D(n1750), .CK(clk), .RN(n7646), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2035|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][0]  ( .D(n1685), .CK(clk), .RN(n7642), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2037|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][1]  ( .D(n1684), .CK(clk), .RN(n7652), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2039|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][2]  ( .D(n1683), .CK(clk), .RN(n7660), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2041|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][3]  ( .D(n1682), .CK(clk), .RN(n7644), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2043|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][4]  ( .D(n1681), .CK(clk), .RN(n7642), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2045|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][5]  ( .D(n1680), .CK(clk), .RN(n7659), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2047|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][6]  ( .D(n1679), .CK(clk), .RN(n7643), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2049|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][7]  ( .D(n1678), .CK(clk), .RN(n7643), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2051|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][8]  ( .D(n1677), .CK(clk), .RN(n7643), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2053|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[3][10]  ( .D(n1675), .CK(clk), .RN(n7657), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2057|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][0]  ( .D(n1663), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2059|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][1]  ( .D(n1662), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2061|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][2]  ( .D(n1661), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2063|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][3]  ( .D(n1660), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2065|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][4]  ( .D(n1659), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2067|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][5]  ( .D(n1658), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2069|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][6]  ( .D(n1657), .CK(clk), .RN(n7658), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2071|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][7]  ( .D(n1656), .CK(clk), .RN(n7658), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2073|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][8]  ( .D(n1655), .CK(clk), .RN(n7658), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2075|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[2][10]  ( .D(n1653), .CK(clk), .RN(n7659), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2079|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][0]  ( .D(n1641), .CK(clk), .RN(n7656), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2081|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][1]  ( .D(n1640), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2083|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][2]  ( .D(n1639), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2085|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][3]  ( .D(n1638), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2087|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][4]  ( .D(n1637), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2089|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][5]  ( .D(n1636), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2091|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][6]  ( .D(n1635), .CK(clk), .RN(n7657), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2093|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][7]  ( .D(n1634), .CK(clk), .RN(n7658), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2095|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][8]  ( .D(n1633), .CK(clk), .RN(n7658), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2097|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[0][10]  ( .D(n1631), .CK(clk), .RN(n7659), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2101|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][0]  ( .D(n1630), .CK(clk), .RN(n7642), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2103|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][1]  ( .D(n1629), .CK(clk), .RN(n7649), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2105|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][2]  ( .D(n1628), .CK(clk), .RN(n7649), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2107|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][3]  ( .D(n1627), .CK(clk), .RN(n7648), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2109|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][4]  ( .D(n1626), .CK(clk), .RN(n7655), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2111|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][5]  ( .D(n1625), .CK(clk), .RN(n7645), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2113|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][6]  ( .D(n1624), .CK(clk), .RN(n7656), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2115|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][7]  ( .D(n1623), .CK(clk), .RN(n7643), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2117|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][8]  ( .D(n1622), .CK(clk), .RN(n7643), .Q(
+                              |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2119|30): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hex_edge_y_reg[1][10]  ( .D(n1620), .CK(clk), .RN(n7651), .Q(
+                               |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2123|31): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[4][0]  ( .D(n1584), .CK(clk), .RN(n7648), .QN(n7565) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2127|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[3][0]  ( .D(n1574), .CK(clk), .RN(n7639), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2128|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[5][1]  ( .D(n1593), .CK(clk), .RN(n7648), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2134|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[3][1]  ( .D(n1573), .CK(clk), .RN(n7639), .QN(n7567) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2138|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[1][1]  ( .D(n1553), .CK(clk), .RN(n7639), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2139|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[5][2]  ( .D(n1592), .CK(clk), .RN(n7648), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2143|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[1][2]  ( .D(n1552), .CK(clk), .RN(n7640), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2149|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[1][3]  ( .D(n1551), .CK(clk), .RN(n7640), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2159|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[1][4]  ( .D(n1550), .CK(clk), .RN(n7640), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2169|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[5][5]  ( .D(n1589), .CK(clk), .RN(n7649), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2173|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[3][5]  ( .D(n1569), .CK(clk), .RN(n7640), .QN(n7595) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2177|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[1][5]  ( .D(n1549), .CK(clk), .RN(n7649), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2178|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[5][6]  ( .D(n1588), .CK(clk), .RN(n7649), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2182|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[3][6]  ( .D(n1568), .CK(clk), .RN(n7640), .QN(n7594) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2186|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[1][6]  ( .D(n1548), .CK(clk), .RN(n7641), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2187|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[5][7]  ( .D(n1587), .CK(clk), .RN(n7649), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2191|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[3][7]  ( .D(n1567), .CK(clk), .RN(n7641), .QN(n7600) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2195|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[1][7]  ( .D(n1547), .CK(clk), .RN(n7641), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2196|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[5][8]  ( .D(n1586), .CK(clk), .RN(n7649), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2200|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[3][8]  ( .D(n1566), .CK(clk), .RN(n7641), .QN(n7610) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2204|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[1][8]  ( .D(n1546), .CK(clk), .RN(n7641), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2205|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_y_reg[3][9]  ( .D(n1565), .CK(clk), .RN(n7641), .QN(n7609) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2213|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_y_reg[1][9]  ( .D(n1545), .CK(clk), .RN(n7641), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2214|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[1][0]  ( .D(n1504), .CK(clk), .RN(n7650), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2224|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][1]  ( .D(n1543), .CK(clk), .RN(n7651), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2228|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[1][1]  ( .D(n1503), .CK(clk), .RN(n7648), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2234|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][2]  ( .D(n1542), .CK(clk), .RN(n7651), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2238|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[1][2]  ( .D(n1502), .CK(clk), .RN(n7655), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2244|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][3]  ( .D(n1541), .CK(clk), .RN(n7651), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2248|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[1][3]  ( .D(n1501), .CK(clk), .RN(n7651), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2254|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][4]  ( .D(n1540), .CK(clk), .RN(n7651), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2258|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[1][4]  ( .D(n1500), .CK(clk), .RN(n7644), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2264|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][5]  ( .D(n1539), .CK(clk), .RN(n7652), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2268|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[1][5]  ( .D(n1499), .CK(clk), .RN(n7645), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2274|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][6]  ( .D(n1538), .CK(clk), .RN(n7652), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2278|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[3][6]  ( .D(n1518), .CK(clk), .RN(n7655), .QN(n7460) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2282|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_x_reg[1][6]  ( .D(n1498), .CK(clk), .RN(n7648), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2283|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][7]  ( .D(n1537), .CK(clk), .RN(n7652), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2287|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[4][7]  ( .D(n1527), .CK(clk), .RN(n7652), .QN(n7459) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2289|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_x_reg[1][7]  ( .D(n1497), .CK(clk), .RN(n7644), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2292|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[5][8]  ( .D(n1536), .CK(clk), .RN(n7652), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2296|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[4][8]  ( .D(n1526), .CK(clk), .RN(n7652), .QN(n7604) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2298|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_x_reg[1][8]  ( .D(n1496), .CK(clk), .RN(n7652), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2301|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \point_x_reg[3][9]  ( .D(n1515), .CK(clk), .RN(n7642), .QN(n7465) );
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2309|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): Q
+
+  DFFRX1 \point_x_reg[1][9]  ( .D(n1495), .CK(clk), .RN(n7650), .Q(
+                           |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2310|27): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \radius_reg[1][2]  ( .D(n1404), .CK(clk), .RN(n7653), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2316|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \radius_reg[1][3]  ( .D(n1403), .CK(clk), .RN(n7657), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2322|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \radius_reg[1][4]  ( .D(n1402), .CK(clk), .RN(n7646), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2324|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \radius_reg[1][5]  ( .D(n1401), .CK(clk), .RN(n7651), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2330|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \radius_reg[1][6]  ( .D(n1400), .CK(clk), .RN(n7643), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2336|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \radius_reg[1][7]  ( .D(n1399), .CK(clk), .RN(n7650), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2340|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[20]  ( .D(n1353), .CK(clk), .RN(n7646), .Q(hexarea[20])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2352|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[18]  ( .D(n1355), .CK(clk), .RN(n7646), .Q(hexarea[18])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2356|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[16]  ( .D(n1357), .CK(clk), .RN(n7648), .Q(hexarea[16])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2360|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[14]  ( .D(n1359), .CK(clk), .RN(n7647), .Q(hexarea[14])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2364|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[12]  ( .D(n1361), .CK(clk), .RN(n7647), .Q(hexarea[12])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2368|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[11]  ( .D(n1362), .CK(clk), .RN(n7647), .Q(hexarea[11])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2370|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[10]  ( .D(n1363), .CK(clk), .RN(n7647), .Q(hexarea[10])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2372|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[9]  ( .D(n1364), .CK(clk), .RN(n7647), .Q(hexarea[9]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2374|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[8]  ( .D(n1365), .CK(clk), .RN(n7647), .Q(hexarea[8]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2375|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[7]  ( .D(n1366), .CK(clk), .RN(n7647), .Q(hexarea[7]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2376|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[5]  ( .D(n1368), .CK(clk), .RN(n7647), .Q(hexarea[5]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2379|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[3]  ( .D(n1370), .CK(clk), .RN(n7646), .Q(hexarea[3]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2382|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[1]  ( .D(n1372), .CK(clk), .RN(n7646), .Q(hexarea[1]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2385|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \hexarea_reg[0]  ( .D(n1373), .CK(clk), .RN(n7646), .Q(hexarea[0]) );
+                        |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,2386|24): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX4 \triarea_reg[20]  ( .D(n1595), .CK(clk), .RN(n7641), .Q(triarea[20])
+                         |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,4080|25): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18445): QN
+
+  DFFRX2 \radius_reg[1][0]  ( .D(n1406), .CK(clk), .RN(n7643), .Q(
+                          |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,4114|26): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,18376): QN
+
+  ADDFX1 U3717 ( .A(n3619), .B(n3618), .CI(n3619), .CO(n4077) );
+             |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,6266|13): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,14249): S
+
+  ADDFXL U5403 ( .A(n3371), .B(n3370), .CI(n3371), .CO(n4520) );
+             |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,8443|13): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,14175): S
+
+  ADDFXL U5545 ( .A(n3618), .B(n4260), .CI(n3618), .CO(n4076) );
+             |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,8600|13): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,14175): S
+
+  ADDFXL U5615 ( .A(n3370), .B(n4645), .CI(n3370), .CO(n4519) );
+             |
+ncelab: *W,CUVWSP (../syn/geofence_syn.v,8691|13): 1 output port was not connected:
+ncelab: (/usr/cad/lib/CBDK_IC_Contest_v2.1/Verilog/tsmc13_neg.v,14175): S
+
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Reading SDF file from location "/home/YanYouChen/2024icsontestpratice/109_GeoFence/syn/geofence_syn.sdf"
+	Writing compiled SDF file to "geofence_syn.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     geofence_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture.u_geofence
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 36543  Annotated = 93.69% -- No. of Tchecks = 4194  Annotated = 71.67% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	       36543	       34237	       93.69
+		       $hold	          64	           0	        0.00
+		      $width	        1864	        1503	       80.63
+		  $setuphold	        2266	        1503	       66.33
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ACCSHCINX2:v <0x42c0245f>
+			streams:   0, words:     0
+		worklib.ACCSHCINX4:v <0x5b45fb3a>
+			streams:   0, words:     0
+		worklib.ACCSHCONX2:v <0x2103279e>
+			streams:   0, words:     0
+		worklib.ACCSHCONX4:v <0x3886f8fb>
+			streams:   0, words:     0
+		worklib.ACHCINX2:v <0x6e94de81>
+			streams:   0, words:     0
+		worklib.ACHCINX4:v <0x16a7b8c9>
+			streams:   0, words:     0
+		worklib.ACHCONX2:v <0x2d8c1fa4>
+			streams:   0, words:     0
+		worklib.ACHCONX4:v <0x55bf79ec>
+			streams:   0, words:     0
+		worklib.ADDFHX1:v <0x562aab4a>
+			streams:   0, words:     0
+		worklib.ADDFHX2:v <0x3559f8bb>
+			streams:   0, words:     0
+		worklib.ADDFHX4:v <0x227ea77c>
+			streams:   0, words:     0
+		worklib.ADDFHXL:v <0x562b3d81>
+			streams:   0, words:     0
+		worklib.ADDFX1:v <0x1717d5e7>
+			streams:   0, words:     0
+		worklib.ADDFX2:v <0x74648616>
+			streams:   0, words:     0
+		worklib.ADDFX4:v <0x6343d9d1>
+			streams:   0, words:     0
+		worklib.ADDFXL:v <0x1da6bd48>
+			streams:   0, words:     0
+		worklib.ADDHX1:v <0x3f8215de>
+			streams:   0, words:     0
+		worklib.ADDHX2:v <0x5b4552b1>
+			streams:   0, words:     0
+		worklib.ADDHX4:v <0x6dee1879>
+			streams:   0, words:     0
+		worklib.ADDHXL:v <0x2561c1c2>
+			streams:   0, words:     0
+		worklib.AFCSHCINX2:v <0x0cc7aba5>
+			streams:   0, words:     0
+		worklib.AFCSHCINX4:v <0x0dbc4192>
+			streams:   0, words:     0
+		worklib.AFCSHCONX2:v <0x132622a8>
+			streams:   0, words:     0
+		worklib.AFCSHCONX4:v <0x125dc89f>
+			streams:   0, words:     0
+		worklib.AFCSIHCONX2:v <0x07584628>
+			streams:   0, words:     0
+		worklib.AFCSIHCONX4:v <0x7bc68175>
+			streams:   0, words:     0
+		worklib.AFHCINX2:v <0x6d5f72b2>
+			streams:   0, words:     0
+		worklib.AFHCINX4:v <0x03cbfaee>
+			streams:   0, words:     0
+		worklib.AFHCONX2:v <0x4814a0d4>
+			streams:   0, words:     0
+		worklib.AFHCONX4:v <0x26802888>
+			streams:   0, words:     0
+		worklib.AHCSHCINX2:v <0x037569af>
+			streams:   0, words:     0
+		worklib.AHCSHCINX4:v <0x5fa25440>
+			streams:   0, words:     0
+		worklib.AHCSHCONX2:v <0x35a1a179>
+			streams:   0, words:     0
+		worklib.AHCSHCONX4:v <0x69769c96>
+			streams:   0, words:     0
+		worklib.AHHCINX2:v <0x18dc1a59>
+			streams:   0, words:     0
+		worklib.AHHCINX4:v <0x120b0656>
+			streams:   0, words:     0
+		worklib.AHHCONX2:v <0x5748a21a>
+			streams:   0, words:     0
+		worklib.AHHCONX4:v <0x5d9fbe15>
+			streams:   0, words:     0
+		worklib.BENCX1:v <0x605b6b4d>
+			streams:   0, words:     0
+		worklib.BENCX2:v <0x3980fd17>
+			streams:   0, words:     0
+		worklib.BENCX4:v <0x581c0015>
+			streams:   0, words:     0
+		worklib.BMXIX2:v <0x7733b4cc>
+			streams:   0, words:     0
+		worklib.BMXIX4:v <0x6c56176b>
+			streams:   0, words:     0
+		worklib.BMXX2:v <0x41a8a865>
+			streams:   0, words:     0
+		worklib.BMXX4:v <0x399bce2d>
+			streams:   0, words:     0
+		worklib.CLKMX2X12:v <0x467ded38>
+			streams:   0, words:     0
+		worklib.CLKMX2X2:v <0x23564a00>
+			streams:   0, words:     0
+		worklib.CLKMX2X3:v <0x7de16a05>
+			streams:   0, words:     0
+		worklib.CLKMX2X4:v <0x3891304f>
+			streams:   0, words:     0
+		worklib.CLKMX2X6:v <0x6f68c696>
+			streams:   0, words:     0
+		worklib.CLKMX2X8:v <0x37a3a3b4>
+			streams:   0, words:     0
+		worklib.CLKXOR2X1:v <0x34f1ba84>
+			streams:   0, words:     0
+		worklib.CLKXOR2X2:v <0x68d9e23e>
+			streams:   0, words:     0
+		worklib.CLKXOR2X4:v <0x5a2da000>
+			streams:   0, words:     0
+		worklib.CLKXOR2X8:v <0x01a964b4>
+			streams:   0, words:     0
+		worklib.CMPR22X2:v <0x55770cfd>
+			streams:   0, words:     0
+		worklib.CMPR22X4:v <0x63dc4635>
+			streams:   0, words:     0
+		worklib.CMPR32X2:v <0x0713ea82>
+			streams:   0, words:     0
+		worklib.CMPR32X4:v <0x698762de>
+			streams:   0, words:     0
+		worklib.CMPR42X1:v <0x752eca29>
+			streams:   0, words:     0
+		worklib.CMPR42X2:v <0x6f1da337>
+			streams:   0, words:     0
+		worklib.CMPR42X4:v <0x73fed947>
+			streams:   0, words:     0
+		worklib.DFFHQX1:v <0x1d411586>
+			streams:   0, words:     0
+		worklib.DFFHQX2:v <0x0d337760>
+			streams:   0, words:     0
+		worklib.DFFHQX4:v <0x2dd7b2ac>
+			streams:   0, words:     0
+		worklib.DFFHQX8:v <0x5df889a6>
+			streams:   0, words:     0
+		worklib.DFFNSRX1:v <0x638607b4>
+			streams:   0, words:     0
+		worklib.DFFNSRX2:v <0x453e5adb>
+			streams:   0, words:     0
+		worklib.DFFNSRX4:v <0x62d956d6>
+			streams:   0, words:     0
+		worklib.DFFNSRXL:v <0x30fdfc07>
+			streams:   0, words:     0
+		worklib.DFFQX1:v <0x5daa6ffd>
+			streams:   0, words:     0
+		worklib.DFFQX2:v <0x4dd80d1b>
+			streams:   0, words:     0
+		worklib.DFFQX4:v <0x6d3cc8d7>
+			streams:   0, words:     0
+		worklib.DFFQXL:v <0x3c963976>
+			streams:   0, words:     0
+		worklib.DFFRHQX1:v <0x181219d7>
+			streams:   0, words:     0
+		worklib.DFFRHQX2:v <0x7b813500>
+			streams:   0, words:     0
+		worklib.DFFRHQX4:v <0x0d41dc3c>
+			streams:   0, words:     0
+		worklib.DFFRHQX8:v <0x587c6921>
+			streams:   0, words:     0
+		worklib.DFFRX1:v <0x1adf9445>
+			streams:   0, words:     0
+		worklib.DFFRX2:v <0x4b7ac16b>
+			streams:   0, words:     0
+		worklib.DFFRX4:v <0x616abcc0>
+			streams:   0, words:     0
+		worklib.DFFRXL:v <0x66a868b9>
+			streams:   0, words:     0
+		worklib.DFFSHQX1:v <0x1cdae60f>
+			streams:   0, words:     0
+		worklib.DFFSHQX2:v <0x7f49cad8>
+			streams:   0, words:     0
+		worklib.DFFSHQX4:v <0x098923e4>
+			streams:   0, words:     0
+		worklib.DFFSHQX8:v <0x5cb496f9>
+			streams:   0, words:     0
+		worklib.DFFSRHQX1:v <0x7dce7460>
+			streams:   0, words:     0
+		worklib.DFFSRHQX2:v <0x733a7e3a>
+			streams:   0, words:     0
+		worklib.DFFSRHQX4:v <0x0445dc5d>
+			streams:   0, words:     0
+		worklib.DFFSRHQX8:v <0x63e04f64>
+			streams:   0, words:     0
+		worklib.DFFSRX1:v <0x60b81430>
+			streams:   0, words:     0
+		worklib.DFFSRX2:v <0x4600495f>
+			streams:   0, words:     0
+		worklib.DFFSRX4:v <0x61e74552>
+			streams:   0, words:     0
+		worklib.DFFSRXL:v <0x33c3ef83>
+			streams:   0, words:     0
+		worklib.DFFSX1:v <0x50cd1c9b>
+			streams:   0, words:     0
+		worklib.DFFSX2:v <0x016849b5>
+			streams:   0, words:     0
+		worklib.DFFSX4:v <0x2b78341e>
+			streams:   0, words:     0
+		worklib.DFFSXL:v <0x20bed52b>
+			streams:   0, words:     0
+		worklib.DFFTRX1:v <0x7e7e9dc3>
+			streams:   0, words:     0
+		worklib.DFFTRX2:v <0x0dafec1f>
+			streams:   0, words:     0
+		worklib.DFFTRX4:v <0x3826de11>
+			streams:   0, words:     0
+		worklib.DFFTRXL:v <0x5e286abd>
+			streams:   0, words:     0
+		worklib.DFFX1:v <0x359ddb84>
+			streams:   0, words:     0
+		worklib.DFFX2:v <0x74389e19>
+			streams:   0, words:     0
+		worklib.DFFX4:v <0x4694a5b1>
+			streams:   0, words:     0
+		worklib.DFFXL:v <0x7fb81d77>
+			streams:   0, words:     0
+		worklib.EDFFHQX1:v <0x661a8d29>
+			streams:   0, words:     0
+		worklib.EDFFHQX2:v <0x0589a1fe>
+			streams:   0, words:     0
+		worklib.EDFFHQX4:v <0x734948c2>
+			streams:   0, words:     0
+		worklib.EDFFHQX8:v <0x2674fddf>
+			streams:   0, words:     0
+		worklib.EDFFTRX1:v <0x34cca517>
+			streams:   0, words:     0
+		worklib.EDFFTRX2:v <0x1274f878>
+			streams:   0, words:     0
+		worklib.EDFFTRX4:v <0x3593f475>
+			streams:   0, words:     0
+		worklib.EDFFTRXL:v <0x67b75ea4>
+			streams:   0, words:     0
+		worklib.EDFFX1:v <0x3561a6b7>
+			streams:   0, words:     0
+		worklib.EDFFX2:v <0x64c4f399>
+			streams:   0, words:     0
+		worklib.EDFFX4:v <0x4ed48e32>
+			streams:   0, words:     0
+		worklib.EDFFXL:v <0x45126f07>
+			streams:   0, words:     0
+		worklib.MDFFHQX1:v <0x54f2a82e>
+			streams:   0, words:     0
+		worklib.MDFFHQX2:v <0x56a205d5>
+			streams:   0, words:     0
+		worklib.MDFFHQX4:v <0x31ce3f07>
+			streams:   0, words:     0
+		worklib.MDFFHQX8:v <0x7f164aa3>
+			streams:   0, words:     0
+		worklib.MX2X1:v <0x070abed8>
+			streams:   0, words:     0
+		worklib.MX2X2:v <0x321f8426>
+			streams:   0, words:     0
+		worklib.MX2X4:v <0x29d8fe69>
+			streams:   0, words:     0
+		worklib.MX2X6:v <0x7e2108b0>
+			streams:   0, words:     0
+		worklib.MX2X8:v <0x26ea6d92>
+			streams:   0, words:     0
+		worklib.MX2XL:v <0x7f98e512>
+			streams:   0, words:     0
+		worklib.MX3X1:v <0x02cb1b44>
+			streams:   0, words:     0
+		worklib.MX3X2:v <0x37d7a3dd>
+			streams:   0, words:     0
+		worklib.MX3X4:v <0x5deed2ef>
+			streams:   0, words:     0
+		worklib.MX3XL:v <0x3b581c03>
+			streams:   0, words:     0
+		worklib.MX4X1:v <0x4046cb60>
+			streams:   0, words:     0
+		worklib.MX4X2:v <0x7ec6906b>
+			streams:   0, words:     0
+		worklib.MX4X4:v <0x03c6267d>
+			streams:   0, words:     0
+		worklib.MX4XL:v <0x117a8000>
+			streams:   0, words:     0
+		worklib.MXI2X1:v <0x124380df>
+			streams:   0, words:     0
+		worklib.MXI2X2:v <0x535348f1>
+			streams:   0, words:     0
+		worklib.MXI2X4:v <0x54ee4882>
+			streams:   0, words:     0
+		worklib.MXI2X6:v <0x679c07c1>
+			streams:   0, words:     0
+		worklib.MXI2X8:v <0x5b944864>
+			streams:   0, words:     0
+		worklib.MXI2XL:v <0x31ca4e7e>
+			streams:   0, words:     0
+		worklib.MXI3X1:v <0x232e5be5>
+			streams:   0, words:     0
+		worklib.MXI3X2:v <0x5f37e8c1>
+			streams:   0, words:     0
+		worklib.MXI3X4:v <0x27048e89>
+			streams:   0, words:     0
+		worklib.MXI3XL:v <0x4302fb70>
+			streams:   0, words:     0
+		worklib.MXI4X1:v <0x45077f44>
+			streams:   0, words:     0
+		worklib.MXI4X2:v <0x315d1848>
+			streams:   0, words:     0
+		worklib.MXI4X4:v <0x680f66c2>
+			streams:   0, words:     0
+		worklib.MXI4XL:v <0x1d1c313a>
+			streams:   0, words:     0
+		worklib.RF1R1WX1:v <0x36e1ed3e>
+			streams:   0, words:     0
+		worklib.RF2R1WX1:v <0x50786dd7>
+			streams:   0, words:     0
+		worklib.SDFFHQX1:v <0x64f3b63f>
+			streams:   0, words:     0
+		worklib.SDFFHQX2:v <0x66a31bc4>
+			streams:   0, words:     0
+		worklib.SDFFHQX4:v <0x01cf2116>
+			streams:   0, words:     0
+		worklib.SDFFHQX8:v <0x4f1754b2>
+			streams:   0, words:     0
+		worklib.SDFFNSRX1:v <0x32b6aca2>
+			streams:   0, words:     0
+		worklib.SDFFNSRX2:v <0x3d2fd29f>
+			streams:   0, words:     0
+		worklib.SDFFNSRX4:v <0x1aa14980>
+			streams:   0, words:     0
+		worklib.SDFFNSRXL:v <0x20a909d3>
+			streams:   0, words:     0
+		worklib.SDFFQX1:v <0x07f60ac4>
+			streams:   0, words:     0
+		worklib.SDFFQX2:v <0x05a6a73f>
+			streams:   0, words:     0
+		worklib.SDFFQX4:v <0x62ca9ded>
+			streams:   0, words:     0
+		worklib.SDFFQXL:v <0x647dc281>
+			streams:   0, words:     0
+		worklib.SDFFRHQX1:v <0x14e5dd28>
+			streams:   0, words:     0
+		worklib.SDFFRHQX2:v <0x138162a1>
+			streams:   0, words:     0
+		worklib.SDFFRHQX4:v <0x7e857c97>
+			streams:   0, words:     0
+		worklib.SDFFRHQX8:v <0x248d40fb>
+			streams:   0, words:     0
+		worklib.SDFFRX1:v <0x156f9b68>
+			streams:   0, words:     0
+		worklib.SDFFRX2:v <0x4458ce12>
+			streams:   0, words:     0
+		worklib.SDFFRX4:v <0x5e8a0383>
+			streams:   0, words:     0
+		worklib.SDFFRXL:v <0x727a5a04>
+			streams:   0, words:     0
+		worklib.SDFFSHQX1:v <0x1cc5c5eb>
+			streams:   0, words:     0
+		worklib.SDFFSHQX2:v <0x1ba17a62>
+			streams:   0, words:     0
+		worklib.SDFFSHQX4:v <0x76a56454>
+			streams:   0, words:     0
+		worklib.SDFFSHQX8:v <0x2cad5838>
+			streams:   0, words:     0
+		worklib.SDFFSRHQX1:v <0x65113eda>
+			streams:   0, words:     0
+		worklib.SDFFSRHQX2:v <0x7902414b>
+			streams:   0, words:     0
+		worklib.SDFFSRHQX4:v <0x130f6fdf>
+			streams:   0, words:     0
+		worklib.SDFFSRHQX8:v <0x153ee341>
+			streams:   0, words:     0
+		worklib.SDFFSRX1:v <0x3a3dc0f5>
+			streams:   0, words:     0
+		worklib.SDFFSRX2:v <0x35a4bec8>
+			streams:   0, words:     0
+		worklib.SDFFSRX4:v <0x122a25d7>
+			streams:   0, words:     0
+		worklib.SDFFSRXL:v <0x28226584>
+			streams:   0, words:     0
+		worklib.SDFFSX1:v <0x19345144>
+			streams:   0, words:     0
+		worklib.SDFFSX2:v <0x4803043e>
+			streams:   0, words:     0
+		worklib.SDFFSX4:v <0x52d1c9af>
+			streams:   0, words:     0
+		worklib.SDFFSXL:v <0x7e219028>
+			streams:   0, words:     0
+		worklib.SDFFTRX1:v <0x5f89ff15>
+			streams:   0, words:     0
+		worklib.SDFFTRX2:v <0x0ebeaa6f>
+			streams:   0, words:     0
+		worklib.SDFFTRX4:v <0x146c67fe>
+			streams:   0, words:     0
+		worklib.SDFFTRXL:v <0x389c3e79>
+			streams:   0, words:     0
+		worklib.SDFFX1:v <0x1cf4674a>
+			streams:   0, words:     0
+		worklib.SDFFX2:v <0x00e718db>
+			streams:   0, words:     0
+		worklib.SDFFX4:v <0x6aea364f>
+			streams:   0, words:     0
+		worklib.SDFFXL:v <0x513d0b23>
+			streams:   0, words:     0
+		worklib.SEDFFHQX1:v <0x1ad422ac>
+			streams:   0, words:     0
+		worklib.SEDFFHQX2:v <0x7f6bcac7>
+			streams:   0, words:     0
+		worklib.SEDFFHQX4:v <0x663fcba7>
+			streams:   0, words:     0
+		worklib.SEDFFHQX8:v <0x6c2bae02>
+			streams:   0, words:     0
+		worklib.SEDFFTRX1:v <0x24e8e617>
+			streams:   0, words:     0
+		worklib.SEDFFTRX2:v <0x5827f7be>
+			streams:   0, words:     0
+		worklib.SEDFFTRX4:v <0x7392055a>
+			streams:   0, words:     0
+		worklib.SEDFFTRXL:v <0x64340a2d>
+			streams:   0, words:     0
+		worklib.SEDFFX1:v <0x42116276>
+			streams:   0, words:     0
+		worklib.SEDFFX2:v <0x5e021de7>
+			streams:   0, words:     0
+		worklib.SEDFFX4:v <0x340f3373>
+			streams:   0, words:     0
+		worklib.SEDFFXL:v <0x0fd80e1f>
+			streams:   0, words:     0
+		worklib.SMDFFHQX1:v <0x001f8665>
+			streams:   0, words:     0
+		worklib.SMDFFHQX2:v <0x63775539>
+			streams:   0, words:     0
+		worklib.SMDFFHQX4:v <0x4f314552>
+			streams:   0, words:     0
+		worklib.SMDFFHQX8:v <0x4596b432>
+			streams:   0, words:     0
+		worklib.TLATNCAX12:v <0x2aea5416>
+			streams:   0, words:     0
+		worklib.TLATNCAX16:v <0x61829144>
+			streams:   0, words:     0
+		worklib.TLATNCAX20:v <0x4600fe94>
+			streams:   0, words:     0
+		worklib.TLATNCAX2:v <0x4ebe3093>
+			streams:   0, words:     0
+		worklib.TLATNCAX3:v <0x31dc82e7>
+			streams:   0, words:     0
+		worklib.TLATNCAX4:v <0x20629768>
+			streams:   0, words:     0
+		worklib.TLATNCAX6:v <0x05d6f5c1>
+			streams:   0, words:     0
+		worklib.TLATNCAX8:v <0x4c3d680c>
+			streams:   0, words:     0
+		worklib.TLATNSRX1:v <0x024998d8>
+			streams:   0, words:     0
+		worklib.TLATNSRX2:v <0x071c6749>
+			streams:   0, words:     0
+		worklib.TLATNSRX4:v <0x56c69e2a>
+			streams:   0, words:     0
+		worklib.TLATNSRXL:v <0x578adf9e>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX12:v <0x742b2f5a>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX16:v <0x3c88f584>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX20:v <0x23a77983>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX2:v <0x2f6e40d5>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX3:v <0x70fe3542>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX4:v <0x039c7764>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX6:v <0x67cd9a0b>
+			streams:   0, words:     0
+		worklib.TLATNTSCAX8:v <0x30efaed5>
+			streams:   0, words:     0
+		worklib.TLATNX1:v <0x0da2d45a>
+			streams:   0, words:     0
+		worklib.TLATNX2:v <0x2b1a8935>
+			streams:   0, words:     0
+		worklib.TLATNX4:v <0x0cfd8538>
+			streams:   0, words:     0
+		worklib.TLATNXL:v <0x5ed92fe9>
+			streams:   0, words:     0
+		worklib.TLATSRX1:v <0x398fdbad>
+			streams:   0, words:     0
+		worklib.TLATSRX2:v <0x3cda243c>
+			streams:   0, words:     0
+		worklib.TLATSRX4:v <0x6d00dd5f>
+			streams:   0, words:     0
+		worklib.TLATSRXL:v <0x6c4c9ceb>
+			streams:   0, words:     0
+		worklib.TLATX1:v <0x2c509f55>
+			streams:   0, words:     0
+		worklib.TLATX2:v <0x0ae8c23a>
+			streams:   0, words:     0
+		worklib.TLATX4:v <0x2d0fce37>
+			streams:   0, words:     0
+		worklib.TLATXL:v <0x7f2b64e6>
+			streams:   0, words:     0
+		worklib.XNOR2X1:v <0x49640230>
+			streams:   0, words:     0
+		worklib.XNOR2X2:v <0x790bcbf4>
+			streams:   0, words:     0
+		worklib.XNOR2X4:v <0x4bff89ca>
+			streams:   0, words:     0
+		worklib.XNOR2XL:v <0x1adcf8c4>
+			streams:   0, words:     0
+		worklib.XNOR3X1:v <0x087ae215>
+			streams:   0, words:     0
+		worklib.XNOR3X2:v <0x3d665a8c>
+			streams:   0, words:     0
+		worklib.XNOR3X4:v <0x575f2bbe>
+			streams:   0, words:     0
+		worklib.XNOR3XL:v <0x31e9e552>
+			streams:   0, words:     0
+		worklib.XOR2X1:v <0x09c3ef51>
+			streams:   0, words:     0
+		worklib.XOR2X2:v <0x55ebb7eb>
+			streams:   0, words:     0
+		worklib.XOR2X4:v <0x671ff5d5>
+			streams:   0, words:     0
+		worklib.XOR2XL:v <0x5a7b15a5>
+			streams:   0, words:     0
+		worklib.XOR3X1:v <0x17056091>
+			streams:   0, words:     0
+		worklib.XOR3X2:v <0x2219d808>
+			streams:   0, words:     0
+		worklib.XOR3X4:v <0x4820a93a>
+			streams:   0, words:     0
+		worklib.XOR3XL:v <0x2e9667d6>
+			streams:   0, words:     0
+		worklib.testfixture:sv <0x4c47a05f>
+			streams:  16, words: 25953
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                  7836     529
+		UDPs:                      827      12
+		Primitives:              21422      10
+		Timing outputs:           9521     480
+		Registers:                 672     181
+		Scalar wires:            10180       -
+		Expanded wires:             31       3
+		Always blocks:               5       5
+		Initial blocks:              9       9
+		Pseudo assignments:          4       4
+		Timing checks:            6460     614
+		Interconnect:            21816       -
+		Delayed tcheck signals:   2078    1108
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.testfixture:sv
+Loading snapshot worklib.testfixture:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_Q-2020.03, Linux x86_64/64bit, 02/09/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'geofence.fsdb'
+*Verdi* : Begin traversing the scope (testfixture), layer (0).
+*Verdi* : Enable +struct and +mda dumping.
+*Verdi* : End of traversing.
+----------------------
+-- Simulation Start --
+----------------------
+Object1(in):   X     Y     R
+          1:  103,  340,  118
+          2:  755,  510,  567
+          3:  103,   50,  294
+          4:  982,  280,  763
+          5:  298,  560,  252
+          6:  710,   50,  559
+Object1: Golde/Return => 1/1, PASS
+
+Object2(out):  X     Y     R
+          1:  298,  560,  178
+          2:  103,   50,  680
+          3:  103,  340,  397
+          4:  710,   50,  830
+          5:  755,  510,  574
+          6:  982,  280,  879
+Object2: Golde/Return => 0/0, PASS
+
+Object3(out):  X     Y     R
+          1:  400,   80,  272
+          2:  300,  800,  659
+          3:  980,  120,  840
+          4:  710,  620,  732
+          5:  103,  500,  342
+          6:  130,  210,   50
+Object3: Golde/Return => 0/0, PASS
+
+Object4(in):   X     Y     R
+          1:  298,  560,  430
+          2:  755,  510,  707
+          3:  103,   50,  116
+          4:  710,   50,  580
+          5:  982,  280,  850
+          6:  103,  340,  183
+Object4: Golde/Return => 1/1, PASS
+
+Object5(in):   X     Y     R
+          1:  755,  510,  345
+          2:  982,  280,  616
+          3:  298,  560,  122
+          4:  710,   50,  549
+          5:  103,   50,  553
+          6:  103,  340,  350
+Object5: Golde/Return => 1/1, PASS
+
+Object6(out):  X     Y     R
+          1:  755,  510,  743
+          2:  103,  340,  296
+          3:  710,   50,  898
+          4:  982,  280, 1021
+          5:  298,  560,  285
+          6:  103,   50,  580
+Object6: Golde/Return => 0/0, PASS
+
+Object7(out):  X     Y     R
+          1:  103,   50,  748
+          2:  710,   50,  148
+          3:  298,  560,  718
+          4:  755,  510,  420
+          5:  982,  280,  223
+          6:  103,  340,  784
+Object7: Golde/Return => 0/0, PASS
+
+Object8(out):  X     Y     R
+          1:  300,  800,  330
+          2:  710,  620,  690
+          3:  400,   80,  664
+          4:  103,  500,  150
+          5:  130,  210,  429
+          6:  980,  120, 1084
+Object8: Golde/Return => 0/0, PASS
+
+Object9(in):   X     Y     R
+          1:  302,  423,  574
+          2:  503,  521,  501
+          3:  694,  768,  420
+          4:   10,  664,  468
+          5:   43, 1003,  298
+          6:  694, 1023,  354
+Object9: Golde/Return => 1/1, PASS
+
+Object10(out):  X     Y     R
+          1:  710,  620,  316
+          2:  980,  120,  561
+          3:  130,  210, 1007
+          4:  400,   80,  863
+          5:  103,  500,  935
+          6:  300,  800,  730
+Object10: Golde/Return => 0/0, PASS
+
+Object11(in):   X     Y     R
+          1:  302,  423,  315
+          2:  694,  768,  546
+          3:  694, 1023,  630
+          4:  503,  521,  394
+          5:   43, 1003,  322
+          6:   10,  664,  146
+Object11: Golde/Return => 1/1, PASS
+
+Object12(in):   X     Y     R
+          1:  980,  120,  733
+          2:  710,  620,  217
+          3:  103,  500,  433
+          4:  130,  210,  594
+          5:  300,  800,  235
+          6:  400,   80,  603
+Object12: Golde/Return => 1/1, PASS
+
+Object13(out):  X     Y     R
+          1:  694, 1023,  392
+          2:   10,  664,  622
+          3:  503,  521,  172
+          4:  694,  768,  146
+          5:  302,  423,  392
+          6:   43, 1003,  694
+Object13: Golde/Return => 0/0, PASS
+
+Object14(in):   X     Y     R
+          1:  321,  870,  378
+          2: 1010,  643,  690
+          3:  321,  127,  365
+          4:  432,  123,  381
+          5:  567, 1003,  560
+          6:  970,  280,  668
+Object14: Golde/Return => 1/1, PASS
+
+Object15(out):  X     Y     R
+          1:  755,  510,  390
+          2:  103,   50,  732
+          3:  103,  340,  487
+          4:  298,  560,  193
+          5:  982,  280,  707
+          6:  710,   50,  720
+Object15: Golde/Return => 0/0, PASS
+
+Object16(out):  X     Y     R
+          1:  300,  800,  628
+          2:  980,  120,  875
+          3:  130,  210, 1096
+          4:  400,   80, 1039
+          5:  103,  500,  934
+          6:  710,  620,  416
+Object16: Golde/Return => 0/0, PASS
+
+Object17(out):  X     Y     R
+          1:  103,  500,  784
+          2:  130,  210,  753
+          3:  400,   80,  540
+          4:  710,  620,  320
+          5:  980,  120,  247
+          6:  300,  800,  732
+Object17: Golde/Return => 0/0, PASS
+
+Object18(in):   X     Y     R
+          1:  503,  521,  154
+          2:  694,  768,  215
+          3:  694, 1023,  398
+          4:   43, 1003,  562
+          5:   10,  664,  490
+          6:  302,  423,  320
+Object18: Golde/Return => 1/1, PASS
+
+Object19(in):   X     Y     R
+          1:   43, 1003,  595
+          2:  302,  423,  550
+          3:   10,  664,  646
+          4:  694, 1023,  168
+          5:  694,  768,  124
+          6:  503,  521,  369
+Object19: Golde/Return => 1/1, PASS
+
+Object20(in):   X     Y     R
+          1:  980,  120,  785
+          2:  103,  500,  214
+          3:  710,  620,  574
+          4:  130,  210,  142
+          5:  300,  800,  486
+          6:  400,   80,  300
+Object20: Golde/Return => 1/1, PASS
+
+Object21(out):  X     Y     R
+          1:  432,  123,  834
+          2:  321,  127,  833
+          3:  567, 1003,  173
+          4:  321,  870,  117
+          5:  970,  280,  885
+          6: 1010,  643,  686
+Object21: Golde/Return => 0/0, PASS
+
+Object22(in):   X     Y     R
+          1:  710,   50,  238
+          2:  103,  340,  777
+          3:  982,  280,  122
+          4:  755,  510,  308
+          5:  298,  560,  664
+          6:  103,   50,  788
+Object22: Golde/Return => 1/1, PASS
+
+Object23(in):   X     Y     R
+          1:  982,  280,  586
+          2:  103,   50,  337
+          3:  755,  510,  464
+          4:  710,   50,  348
+          5:  103,  340,  324
+          6:  298,  560,  364
+Object23: Golde/Return => 1/1, PASS
+
+Object24(in):   X     Y     R
+          1:  503,  521,  205
+          2:   43, 1003,  571
+          3:  302,  423,   69
+          4:   10,  664,  337
+          5:  694, 1023,  661
+          6:  694,  768,  481
+Object24: Golde/Return => 1/1, PASS
+
+Object25(out):  X     Y     R
+          1:  321,  127,  922
+          2:  567, 1003,  228
+          3:  970,  280,  672
+          4: 1010,  643,  363
+          5:  432,  123,  875
+          6:  321,  870,  464
+Object25: Golde/Return => 0/0, PASS
+
+Object26(in):   X     Y     R
+          1:  970,  280,  684
+          2:  432,  123,  771
+          3: 1010,  643,  448
+          4:  321,  127,  802
+          5:  321,  870,  302
+          6:  567, 1003,  144
+Object26: Golde/Return => 1/1, PASS
+
+Object27(out):  X     Y     R
+          1:  755,  510,  386
+          2:  103,   50,  848
+          3:  982,  280,  709
+          4:  710,   50,  778
+          5:  103,  340,  607
+          6:  298,  560,  313
+Object27: Golde/Return => 0/0, PASS
+
+Object28(out):  X     Y     R
+          1:  503,  521,  494
+          2:  302,  423,  346
+          3:  694, 1023,  782
+          4:   10,  664,   40
+          5:   43, 1003,  378
+          6:  694,  768,  689
+Object28: Golde/Return => 0/0, PASS
+
+Object29(out):  X     Y     R
+          1:  567, 1003,  516
+          2:  970,  280,  823
+          3:  321,  870,  269
+          4:  432,  123,  540
+          5: 1010,  643,  790
+          6:  321,  127,  503
+Object29: Golde/Return => 0/0, PASS
+
+Object30(in):   X     Y     R
+          1:  103,  340,  769
+          2:  710,   50,  334
+          3:  103,   50,  822
+          4:  298,  560,  613
+          5:  755,  510,  203
+          6:  982,  280,  126
+Object30: Golde/Return => 1/1, PASS
+
+Object31(out):  X     Y     R
+          1:  503,  521,  582
+          2:  694, 1023, 1097
+          3:   10,  664,  571
+          4:   43, 1003,  904
+          5:  694,  768,  893
+          6:  302,  423,  380
+Object31: Golde/Return => 0/0, PASS
+
+Object32(out):  X     Y     R
+          1:  694, 1023,  377
+          2:   10,  664,  968
+          3:  503,  521,  530
+          4:   43, 1003,  959
+          5:  302,  423,  754
+          6:  694,  768,  279
+Object32: Golde/Return => 0/0, PASS
+
+Object33(in):   X     Y     R
+          1:  321,  870,  389
+          2: 1010,  643,  378
+          3:  567, 1003,  373
+          4:  970,  280,  490
+          5:  321,  127,  595
+          6:  432,  123,  549
+Object33: Golde/Return => 1/1, PASS
+
+Object34(in):   X     Y     R
+          1:  103,  500,  307
+          2:  400,   80,  430
+          3:  130,  210,  410
+          4:  710,  620,  319
+          5:  980,  120,  690
+          6:  300,  800,  310
+Object34: Golde/Return => 1/1, PASS
+
+Object35(in):   X     Y     R
+          1:  503,  521,  299
+          2:   43, 1003,  421
+          3:  694, 1023,  622
+          4:   10,  664,  214
+          5:  694,  768,  496
+          6:  302,  423,  213
+Object35: Golde/Return => 1/1, PASS
+
+Object36(out):  X     Y     R
+          1:  103,   50,  918
+          2:  298,  560,  884
+          3:  710,   50,  311
+          4:  103,  340,  962
+          5:  982,  280,  233
+          6:  755,  510,  531
+Object36: Golde/Return => 0/0, PASS
+
+Object37(out):  X     Y     R
+          1:   10,  664,  815
+          2:  694,  768,  180
+          3:   43, 1003,  743
+          4:  694, 1023,  130
+          5:  302,  423,  695
+          6:  503,  521,  491
+Object37: Golde/Return => 0/0, PASS
+
+Object38(out):  X     Y     R
+          1:  400,   80,  836
+          2:  300,  800,  110
+          3:  103,  500,  454
+          4:  980,  120, 1042
+          5:  130,  210,  720
+          6:  710,  620,  502
+Object38: Golde/Return => 0/0, PASS
+
+Object39(in):   X     Y     R
+          1:  321,  870,  724
+          2:  567, 1003,  786
+          3:  321,  127,  333
+          4:  432,  123,  230
+          5:  970,  280,  334
+          6: 1010,  643,  561
+Object39: Golde/Return => 1/1, PASS
+
+Object40(in):   X     Y     R
+          1:  400,   80,  493
+          2:  103,  500,  816
+          3:  710,  620,  426
+          4:  130,  210,  742
+          5:  300,  800,  811
+          6:  980,  120,  150
+Object40: Golde/Return => 1/1, PASS
+
+Object41(out):  X     Y     R
+          1:  970,  280,  344
+          2:  321,  870,  774
+          3:  432,  123,  217
+          4:  321,  127,  326
+          5: 1010,  643,  600
+          6:  567, 1003,  840
+Object41: Golde/Return => 0/0, PASS
+
+Object42(out):  X     Y     R
+          1:  321,  127,  936
+          2:  321,  870,  655
+          3:  970,  280,  519
+          4:  567, 1003,  454
+          5:  432,  123,  865
+          6: 1010,  643,  160
+Object42: Golde/Return => 0/0, PASS
+
+Object43(in):   X     Y     R
+          1:  567, 1003,  551
+          2:  321,  127,  600
+          3: 1010,  643,  261
+          4:  321,  870,  599
+          5:  432,  123,  520
+          6:  970,  280,  282
+Object43: Golde/Return => 1/1, PASS
+
+Object44(in):   X     Y     R
+          1:  710,  620,  514
+          2:  130,  210,  270
+          3:  300,  800,  598
+          4:  103,  500,  415
+          5:  400,   80,  130
+          6:  980,  120,  586
+Object44: Golde/Return => 1/1, PASS
+
+Object45(out):  X     Y     R
+          1:   10,  664,  849
+          2:  694, 1023,  924
+          3:  503,  521,  444
+          4:  694,  768,  669
+          5:  302,  423,  471
+          6:   43, 1003, 1085
+Object45: Golde/Return => 0/0, PASS
+
+Object46(out):  X     Y     R
+          1:  980,  120,  968
+          2:  710,  620,  500
+          3:  300,  800,  113
+          4:  103,  500,  249
+          5:  130,  210,  517
+          6:  400,   80,  664
+Object46: Golde/Return => 0/0, PASS
+
+Object47(out):  X     Y     R
+          1:  103,  500,  420
+          2:  300,  800,  739
+          3:  400,   80,  270
+          4:  130,  210,  130
+          5:  710,  620,  792
+          6:  980,  120,  850
+Object47: Golde/Return => 0/0, PASS
+
+Object48(in):   X     Y     R
+          1:  321,  870,  264
+          2: 1010,  643,  511
+          3:  321,  127,  576
+          4:  567, 1003,  334
+          5:  432,  123,  556
+          6:  970,  280,  613
+Object48: Golde/Return => 1/1, PASS
+
+Object49(out):  X     Y     R
+          1:  567, 1003, 1016
+          2: 1010,  643, 1059
+          3:  321,  127,  222
+          4:  432,  123,  332
+          5:  321,  870,  801
+          6:  970,  280,  888
+Object49: Golde/Return => 0/0, PASS
+
+Object50(out):  X     Y     R
+          1:  321,  870,  130
+          2:  432,  123,  883
+          3:  970,  280,  969
+          4:  567, 1003,  246
+          5:  321,  127,  873
+          6: 1010,  643,  775
+Object50: Golde/Return => 0/0, PASS
+
+-------------------------------------------------
+--    Simulation finish,  ALL PASS             --
+-------------------------------------------------
+Simulation complete via $finish(1) at time 91450 NS + 0
+../sim/tb.sv:146              $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Mar 21, 2024 at 13:39:05 CST  (total: 00:00:08)
